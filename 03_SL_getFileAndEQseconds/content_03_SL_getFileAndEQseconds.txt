@@ -1,0 +1,1 @@
+Subfolder with suggested correction of the SplitLab function getFileAndEQseconds.m for the offical SplitLab versions
