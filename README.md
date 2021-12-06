@@ -127,7 +127,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 ### _SplitLab_ versions
 - folder `03_SL_getFileAndEQseconds`
-  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (...`_SL105`) ([**_Wüstefeld et al., 2018_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (...`_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (...`_SL121`) (**_Porritt, 2014_**)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (...`_SL190`)
 
