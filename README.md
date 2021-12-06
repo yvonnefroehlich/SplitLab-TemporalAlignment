@@ -1,7 +1,12 @@
-# Relative Temporal Alignment of Seismic Traces in _SplitLab_
+# Temporal Alignment of Seismic Traces in _SplitLab_
 
-This material addresses an error source in the code of the shear wave splitting package _SplitLab_ (**_Wüstefeld et al., 2008_**) causing a wrong temporal alignment of the single traces (Z, N, E components) of one event _relative_ to each other. The resulting wrong particle motion diagrams and wrong waveforms in the ray coordinate system lead to wrong shear wave splitting measurements.
-Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.
+This material addresses an error source in the code of the shear wave splitting package _SplitLab_ 
+([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+causing a wrong temporal alignment of the single traces (Z, N, E components) of one event _relative_ to each other. 
+The resulting wrong particle motion diagrams and wrong waveforms in the ray coordinate system lead 
+to wrong shear wave splitting measurements.
+Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
+of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.
 
 contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical Institute (GPI), yvonne.froehlich@kit.edu
 
@@ -122,9 +127,9 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 ### _SplitLab_ versions
 - folder `03_SL_getFileAndEQseconds`
-  - _SplitLab_ 1.0.5 (...`_SL105`) (**_Wüstefeld et al., 2018_**; http://splitting.gm.univ-montp2.fr/)
-  - _SplitLab_ 1.2.1 (...`_SL121`) (**_Porritt, 2014_**; https://robporritt.wordpress.com/software/)
-  - _SplitLab_ 1.9.0 (...`_SL190`) (https://github.com/IPGP/splitlab)
+  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (...`_SL105`) ([**_Wüstefeld et al., 2018_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (...`_SL121`) (**_Porritt, 2014_**)
+  - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (...`_SL190`)
 
 
 ### How to do
