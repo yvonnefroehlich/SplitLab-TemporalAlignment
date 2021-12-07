@@ -82,7 +82,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 ### Details on earthquake and traces
 
-<details><summary>klick for more information</summary>
+<details><summary>click for more information</summary>
 <p>
 
 **Stuttgart (STU), 2001/06/29 (2001.180)**
