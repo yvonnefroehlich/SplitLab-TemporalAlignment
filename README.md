@@ -82,6 +82,9 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 ### Details on earthquake and traces
 
+<details><summary>klick for more information</summary>
+<p>
+
 **Stuttgart (STU), 2001/06/29 (2001.180)**
 - earthquake
   - date: 2001/06/29 (2001.180)
@@ -121,6 +124,8 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
   - msecs of start times: North = 0950, East = 0000, Vertical = 0950
   - relative msec difference: |E-N| = |950| i. e. |19| samples
 
+</p>
+</details>
 
 
 ## _SplitLab_ function `getFileAndEQseconds.m`
