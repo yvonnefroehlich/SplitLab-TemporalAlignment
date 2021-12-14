@@ -35,7 +35,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 ### How to do
 
-**0) Choose one of the three provided examples (see section "Details on earthquake and traces")**
+**0) Choose one of the three provided examples (see subsection "Details on earthquakes and traces")**
   - Stuttgart (STU), 2001/06/29 (2001.180) 18:35 (UTC)
   - Stuttgart (STU), 2009/11/14 (2009.318) 19:44 (UTC)
   - Échery (ECH), 2018/08/28 (2018.240) 22:35 (UTC)
@@ -74,13 +74,13 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
   - bandpass filter: 0.020 (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
   - phase: SKS
 
-**3) Compare your result / diagnostic plot with the provided diagnostic plots**
+**3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
   - folder `02_SL_diagnosticplots`
-  - shape of the N-E / Q-T particle motion (linar or elliptic)
-  - signal on the T component (no or yes)
+  - shape of the E-N particle motion (linar or elliptic)
+  - phase-related signal on the T component (no or yes)
 
 
-### Details on earthquake and traces
+### Details on earthquakes and traces
 
 <details><summary>click for more information</summary>
 <p>
@@ -138,7 +138,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 
 ### How to do
-- go to the folder `~SplitLab/Tools/` on your computer
+- go to the folder `~/SplitLab/Tools/` on your computer
 - rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
 - copy and past the modified function `getFileAndEQseconds_SLxxx.m` into this folder
 - remove the end of the filename indicating the _SplitLab_ version
