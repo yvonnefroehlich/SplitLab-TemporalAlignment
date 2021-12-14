@@ -7,6 +7,10 @@ The resulting wrong particle motion diagrams and wrong waveforms in the ray coor
 to wrong shear wave splitting measurements.
 Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
 of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.
+This modified _SplitLab_ function is also introduced by _StackSplit_
+([**_Grund, 2017_**] (https://doi.org/10.1016/j.cageo.2017.04.015)) 
+([version 3.0] https://github.com/michaelgrund/stacksplit_**)
+during the installation.
 
 contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical Institute (GPI), yvonne.froehlich@kit.edu
 
