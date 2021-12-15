@@ -3,8 +3,8 @@
 This material addresses an error source in the code of the shear wave splitting package _SplitLab_ 
 ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
 causing a wrong temporal alignment of the single traces (Z, N, E components) of one event _relative_ to each other. 
-The resulting wrong horizontal particle motions and wrong waveforms in the ray coordinate system lead 
-to wrong shear wave splitting measurements.<br/>
+The resulting wrong horizontal particle motion and wrong waveforms in the ray coordinate system lead 
+to a wrong shear wave splitting measurement.<br/>
 Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
 of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.<br/>
 This modified _SplitLab_ function is also introduced by _StackSplit_
