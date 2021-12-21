@@ -27,7 +27,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
   
 - folder `02_SL_diagnosticplots`
   - _SplitLab_ diagnostic plots for comparison
-  - without (...`wrong`) and with (...`correct`) consideration of the msecs
+  - without (...`wrong`) and with (...`correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
   - corrected _SplitLab_ function `getFileAndEQseconds.m`
@@ -70,6 +70,7 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
     - Earth model: IASP91
     - phases: (at least) SKS, SKKS, PKS
   - find files
+    - file search string: corresponding to the chosen filename format
     - offset: 0 sec
     - tolerance: 420 sec
 
@@ -79,8 +80,8 @@ contact: Yvonne Fröhlich Karlsruhe Institute of Technology (KIT), Geophysical I
 
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
   - folder `02_SL_diagnosticplots`
-  - shape of the E-N particle motion (linar or elliptic)
-  - phase-related signal on the T component (no or yes)
+  - shape of the E-N particle motion (linear or elliptic)
+  - SKS phase-related signal on the T component (no or yes)
 
 
 ### Details on earthquakes and traces
@@ -162,9 +163,9 @@ Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Scienc
 
 **_Grund, M. (2017)_**. StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
 Computers & Geosciences, volume 105, pages 43-50. doi: https://doi.org/10.1016/j.cageo.2017.04.015.
-versions 1.0 & 2.0 available at https://github.com/michaelgrund/stacksplit.
+versions 1.0 - 3.0 available at https://github.com/michaelgrund/stacksplit.
 
-**_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.available at: https://robporritt.wordpress.com/software/.
+**_Porritt, R. W. (2014)_**. SplitLab version 1.2.1. available at https://robporritt.wordpress.com/software/.
 
 **_Silver, P. G. & Chan, W. W. (1991)_**. Shear wave splitting and subcontinental mantle deformation.
 Journal of Geophysical Research, volume 96, issue B10, pages 16429-16454. doi: https://doi.org/10.1029/91JB00899.
