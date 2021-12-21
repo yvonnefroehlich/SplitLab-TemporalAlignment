@@ -42,7 +42,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
   - without (...`wrong`) and with (...`correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
-  - corrected _SplitLab_ function `getFileAndEQseconds.m`
+  - corrected or modified _SplitLab_ function `getFileAndEQseconds.m`
 
 
 
@@ -69,7 +69,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
   - general
     - seismic data directory
-	  - got to folder `00_SAC_files`
+	  - go to folder `00_SAC_files`
 	  - select subfolder with preferred filename format
     - output directory
 	  - select folder `01_your_results`
@@ -105,7 +105,8 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 <details><summary>click for single steps</summary>
 <p>
 
-  - bandpass filter: 0.020 (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
+  - bandpass filter: 0.020 Hz (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
+  - coordinate system: LQT
   - phase: SKS
 
 </p>
@@ -116,9 +117,9 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 <details><summary>click for single steps</summary>
 <p>
 
-  - folder `02_SL_diagnosticplots`
-  - shape of the E-N particle motion (linear or elliptic)
-  - SKS phase-related signal on the T component (no or yes)
+  - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment (pdf and png format)
+  - shape of the E-N particle motion: linear or elliptic ?
+  - SKS phase-related signal on the transverse (T) component: no or yes ?
 
 </p>
 </details>
@@ -176,6 +177,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 ## _SplitLab_ function `getFileAndEQseconds.m`
 
 ### _SplitLab_ versions
+
 - folder `03_SL_getFileAndEQseconds`
   - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (...`_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (...`_SL121`) (**_Porritt, 2014_**)
@@ -183,11 +185,12 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 
 ### How to do
-- go to the folder `~/SplitLab/Tools/` on your computer
+
+- go to folder `~/SplitLabx.y.z/Tools/` on your computer
 - rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
-- copy and past the modified function `getFileAndEQseconds_SLxxx.m` into this folder
-- remove the end of the filename indicating the _SplitLab_ version
-- **Redo the assignment of earthquake catalogue and seismological data in your _SplitLab_ project!**
+- copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
+- remove the end of the filename `_SLxyz` indicating the _SplitLab_ version
+- **Assign earthquake catalogue and seismological data in your _SplitLab_ project.**
 
 
 
