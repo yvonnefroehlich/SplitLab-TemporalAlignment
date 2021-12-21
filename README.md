@@ -39,7 +39,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
   
 - folder `02_SL_diagnosticplots`
   - _SplitLab_ diagnostic plots for comparison (pdf and png format)
-  - without (...`wrong`) and with (...`correct`) consideration of the milliseconds (msec)
+  - without (...`_wrong`) and with (...`_correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
   - corrected or modified _SplitLab_ function `getFileAndEQseconds.m`
