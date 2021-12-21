@@ -191,7 +191,7 @@ Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Scienc
 
 **_Grund, M. (2017)_**. StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
 Computers & Geosciences, volume 105, pages 43-50. doi: https://doi.org/10.1016/j.cageo.2017.04.015.
-versions 1.0 - 3.0 available at https://github.com/michaelgrund/stacksplit.
+versions [1.0](https://doi.org/10.5281/zenodo.464385), 2.0, [3.0](add_zenodo_link_when_available) available at https://github.com/michaelgrund/stacksplit.
 
 **_Porritt, R. W. (2014)_**. SplitLab version 1.2.1. available at https://robporritt.wordpress.com/software/.
 
