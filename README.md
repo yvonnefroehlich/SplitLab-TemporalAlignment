@@ -13,6 +13,7 @@ This modified _SplitLab_ function is also introduced by _StackSplit_
 
 
 
+
 ## Citiation
 
 If you make use of this material please cite the relating publication:
@@ -22,6 +23,7 @@ On the effects of wrongly aligned seismogram components for shear wave splitting
 Annals of Geophysics, volume xx, issue xx, pages xxx-xxx. doi: xxx.
 
 Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given above.
+
 
 
 ## Content
@@ -49,11 +51,22 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 ### How to do
 
 **0) Choose one of the three provided examples (see subsection "Details on earthquakes and traces")**
+
+<details><summary>click for single steps</summary>
+<p>
+
   - Stuttgart (STU), 2001/06/29 (2001.180) 18:35 (UTC)
   - Stuttgart (STU), 2009/11/14 (2009.318) 19:44 (UTC)
   - Échery (ECH), 2018/08/28 (2018.240) 22:35 (UTC)
 
+</p>
+</details>
+
 **1) Set up _SplitLab_ project**
+
+<details><summary>click for single steps</summary>
+<p>
+
   - general
     - seismic data directory
 	  - got to folder `00_SAC_files`
@@ -84,14 +97,31 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
     - offset: 0 sec
     - tolerance: 420 sec
 
+</p>
+</details>
+
 **2) Perform shear wave splitting measurement**
+
+<details><summary>click for single steps</summary>
+<p>
+
   - bandpass filter: 0.020 (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
   - phase: SKS
 
+</p>
+</details>
+
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
+
+<details><summary>click for single steps</summary>
+<p>
+
   - folder `02_SL_diagnosticplots`
   - shape of the E-N particle motion (linear or elliptic)
   - SKS phase-related signal on the T component (no or yes)
+
+</p>
+</details>
 
 
 ### Details on earthquakes and traces
@@ -140,6 +170,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 </p>
 </details>
+
 
 
 ## _SplitLab_ function `getFileAndEQseconds.m`
