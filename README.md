@@ -2,8 +2,8 @@
 
 This material addresses an error source in the code of the shear wave splitting package _SplitLab_ 
 ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
-causing a wrong temporal alignment of the single traces (Z, N, E components) of one event _relative_ to each other. 
-The resulting wrong horizontal particle motion and wrong waveforms in the ray coordinate system lead 
+causing a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other. 
+The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead 
 to a wrong shear wave splitting measurement.<br/>
 Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
 of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.<br/>
@@ -38,7 +38,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
   - output folder for your own shear wave splitting measurement results
   
 - folder `02_SL_diagnosticplots`
-  - _SplitLab_ diagnostic plots for comparison
+  - _SplitLab_ diagnostic plots for comparison (pdf and png format)
   - without (...`wrong`) and with (...`correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
@@ -117,7 +117,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 <details><summary>click for single steps</summary>
 <p>
 
-  - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment (pdf and png format)
+  - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
   - shape of the E-N particle motion: linear or elliptic ?
   - SKS phase-related signal on the transverse (T) component: no or yes ?
 
@@ -186,11 +186,12 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 ### How to do
 
+- `xyz` or `x.y.z` indicates the _SplitLab_ version
 - go to folder `~/SplitLabx.y.z/Tools/` on your computer
 - rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
 - copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
-- remove the end of the filename `_SLxyz` indicating the _SplitLab_ version
-- **Assign earthquake catalogue and seismological data in your _SplitLab_ project.**
+- remove the end of the filename `_SLxyz`
+- **assign earthquake catalogue and seismological data in your _SplitLab_ project**
 
 
 
