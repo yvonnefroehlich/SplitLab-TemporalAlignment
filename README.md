@@ -52,15 +52,9 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 **0) Choose one of the three provided examples (see subsection "Details on earthquakes and traces")**
 
-<details><summary>click for single steps</summary>
-<p>
-
   - Stuttgart (STU), 2001/06/29 (2001.180) 18:35 (UTC)
   - Stuttgart (STU), 2009/11/14 (2009.318) 19:44 (UTC)
   - Échery (ECH), 2018/08/28 (2018.240) 22:35 (UTC)
-
-</p>
-</details>
 
 **1) Set up _SplitLab_ project**
 
@@ -102,27 +96,15 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 **2) Perform shear wave splitting measurement**
 
-<details><summary>click for single steps</summary>
-<p>
-
   - bandpass filter: 0.020 Hz (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
   - coordinate system: LQT
   - phase: SKS
 
-</p>
-</details>
-
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
-
-<details><summary>click for single steps</summary>
-<p>
 
   - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
   - shape of the E-N particle motion: linear or elliptic ?
   - SKS phase-related signal on the transverse (T) component: no or yes ?
-
-</p>
-</details>
 
 
 ### Details on earthquakes and traces
