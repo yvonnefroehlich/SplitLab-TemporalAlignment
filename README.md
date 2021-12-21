@@ -9,7 +9,7 @@ Here a test with seismologcial data for your personal _SplitLab_ version and a s
 of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.<br/>
 This modified _SplitLab_ function is also introduced by _StackSplit_
 ([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) 
-[version 3.0](https://github.com/michaelgrund/stacksplit) during the installation.
+[version 3.0](add_zenodo_link_when_available) during the installation.
 
 
 
@@ -17,8 +17,11 @@ This modified _SplitLab_ function is also introduced by _StackSplit_
 
 If you make use of this material please cite the relating publication:
 
-**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. On the effects of wrongly aligned seismogram components for shear wave splitting analysis.
+**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. 
+On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
 Annals of Geophysics, volume xx, issue xx, pages xxx-xxx. doi: xxx.
+
+Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given above.
 
 
 ## Content
@@ -39,8 +42,8 @@ Annals of Geophysics, volume xx, issue xx, pages xxx-xxx. doi: xxx.
 - folder `03_SL_getFileAndEQseconds`
   - corrected _SplitLab_ function `getFileAndEQseconds.m`
 
-	
-	
+
+
 ## Test
 
 ### How to do
@@ -183,5 +186,3 @@ Journal of Geophysical Research: Solid Earth, volume 118, issue 10, pages 5500-5
 **_Wüstefeld, A., Bokelmann, G., Zaroli, C. & Barruol, G.  (2008)_**. SplitLab: A shear-wave splitting environment in Matlab.
 Computers & Geosciences, volume 34, issue 5, pages 515-528. doi: https://doi.org/10.1016/j.cageo.2007.08.002.
 version 1.0.5 available at http://splitting.gm.univ-montp2.fr/ and version 1.9.0 available at https://github.com/IPGP/splitlab.
-
-
