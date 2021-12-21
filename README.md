@@ -43,6 +43,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 - folder `03_SL_getFileAndEQseconds`
   - corrected or modified _SplitLab_ function `getFileAndEQseconds.m`
+  - all three SplitLab versions (...`_SLxyz`)
 
 
 
