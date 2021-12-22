@@ -20,7 +20,7 @@ If you make use of this material please cite the relating publication:
 
 **_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. 
 On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
-Annals of Geophysics, volume xx, issue xx, pages xxx-xxx. doi: xxx.
+*Annals of Geophysics*, volume xx, issue xx, pages xxx-xxx. doi: xxx.
 
 Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given above.
 
@@ -180,27 +180,40 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 
 ## References
 
-**_Bowman, J. R. & Ando, M. (1987)_**. Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
-Geophysical Journal International, volume 88, issue 1, pages 25-41. doi: https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
+[**_Bowman, J. R. & Ando, M. (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
+Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
+*Geophysical Journal International*, volume 88, issue 1, pages 25-41.
+doi: https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
 
 **_GEOFON Data Centre (1993)_**. GEOFON (GeoForschungsNetz).
-Deutsches GeoForschungsZentrum (GFZ), Seismic Network. doi: https://doi.org/10.14470/TR560404.
+Deutsches GeoForschungsZentrum (GFZ), Seismic Network.
+doi: https://doi.org/10.14470/TR560404.
 
 **_GEOSCOPE (1982)_**. French Global Network of broad band seismic stations.
-Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Sciences de la Terre de Strasbourg (EOST). doi: https://doi.org/10.18715/GEOSCOPE.G.
+Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Sciences de la Terre de Strasbourg (EOST).
+doi: https://doi.org/10.18715/GEOSCOPE.G.
 
-**_Grund, M. (2017)_**. StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
-Computers & Geosciences, volume 105, pages 43-50. doi: https://doi.org/10.1016/j.cageo.2017.04.015.
+[**_Grund, M. (2017)_**](https://doi.org/10.1016/j.cageo.2017.04.015).
+StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
+*Computers & Geosciences*, volume 105, pages 43-50.
+doi: https://doi.org/10.1016/j.cageo.2017.04.015.
 versions [1.0](https://doi.org/10.5281/zenodo.464385), 2.0, [3.0](add_zenodo_link_when_available) available at https://github.com/michaelgrund/stacksplit.
 
-**_Porritt, R. W. (2014)_**. SplitLab version 1.2.1. available at https://robporritt.wordpress.com/software/.
+**_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.
+available at https://robporritt.wordpress.com/software/.
 
-**_Silver, P. G. & Chan, W. W. (1991)_**. Shear wave splitting and subcontinental mantle deformation.
-Journal of Geophysical Research, volume 96, issue B10, pages 16429-16454. doi: https://doi.org/10.1029/91JB00899.
+[**_Silver, P. G. & Chan, W. W. (1991)_**](https://doi.org/10.1029/91JB00899).
+Shear wave splitting and subcontinental mantle deformation.
+*Journal of Geophysical Research*, volume 96, issue B10, pages 16429-16454.
+doi: https://doi.org/10.1029/91JB00899.
 
-**_Walsh, E., Arnold, R. & Savage, M. K. (2013)_**. Silver and Chan revisited.
-Journal of Geophysical Research: Solid Earth, volume 118, issue 10, pages 5500-5515. doi: https://doi.org/10.1002/jgrb.50386.
+[**_Walsh, E., Arnold, R. & Savage, M. K. (2013)_**](https://doi.org/10.1002/jgrb.50386).
+Silver and Chan revisited.
+*Journal of Geophysical Research: Solid Earth*, volume 118, issue 10, pages 5500-5515.
+doi: https://doi.org/10.1002/jgrb.50386.
 
-**_Wüstefeld, A., Bokelmann, G., Zaroli, C. & Barruol, G.  (2008)_**. SplitLab: A shear-wave splitting environment in Matlab.
-Computers & Geosciences, volume 34, issue 5, pages 515-528. doi: https://doi.org/10.1016/j.cageo.2007.08.002.
+[**_Wüstefeld, A., Bokelmann, G., Zaroli, C. & Barruol, G.  (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002).
+SplitLab: A shear-wave splitting environment in Matlab.
+*Computers & Geosciences*, volume 34, issue 5, pages 515-528.
+doi: https://doi.org/10.1016/j.cageo.2007.08.002.
 version 1.0.5 available at http://splitting.gm.univ-montp2.fr/ and version 1.9.0 available at https://github.com/IPGP/splitlab.
