@@ -170,7 +170,7 @@ Futhermore you can cite the [Zenodo Doi](add_zenodo_link_when_available) given a
 ### How to do
 
 - `xyz` or `x.y.z` indicates the _SplitLab_ version
-- go to folder `~/SplitLabx.y.z/Tools/` on your computer
+- go to the folder `~/SplitLabx.y.z/Tools/` on your computer
 - rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
 - copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
 - remove the end of the filename `_SLxyz`
