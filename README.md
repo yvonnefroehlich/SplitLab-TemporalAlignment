@@ -1,6 +1,6 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_
 
-This material addresses an error source in the code of the shear wave splitting package _SplitLab_ 
+This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_
 ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
 causing a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other. 
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead 
@@ -41,7 +41,7 @@ Futhermore you can cite the Zenodo Doi given above.
   - without (...`_wrong`) and with (...`_correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
-  - corrected or modified _SplitLab_ function `getFileAndEQseconds.m`
+  - modified _SplitLab_ function `getFileAndEQseconds.m`
   - all three _SplitLab_ versions (...`_SLxyz`)
 
 
@@ -182,21 +182,21 @@ Futhermore you can cite the Zenodo Doi given above.
 [**_Bowman, J. R. & Ando, M. (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
 Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
 *Geophysical Journal International*, volume 88, issue 1, pages 25-41.
-doi: https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
+https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
 
 **_GEOFON Data Centre (1993)_**. GEOFON (GeoForschungsNetz).
 Deutsches GeoForschungsZentrum (GFZ), Seismic Network.
-doi: https://doi.org/10.14470/TR560404.
+https://doi.org/10.14470/TR560404.
 
 **_GEOSCOPE (1982)_**. French Global Network of broad band seismic stations.
 Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Sciences de la Terre de Strasbourg (EOST).
-doi: https://doi.org/10.18715/GEOSCOPE.G.
+https://doi.org/10.18715/GEOSCOPE.G.
 
 [**_Grund, M. (2017)_**](https://doi.org/10.1016/j.cageo.2017.04.015).
 StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
 *Computers & Geosciences*, volume 105, pages 43-50.
-doi: https://doi.org/10.1016/j.cageo.2017.04.015.
-versions [1.0](https://doi.org/10.5281/zenodo.464385), 2.0, 3.0 available at https://github.com/michaelgrund/stacksplit.
+https://doi.org/10.1016/j.cageo.2017.04.015.
+versions [1.0](https://doi.org/10.5281/zenodo.464385), 2.0, and 3.0 available at https://github.com/michaelgrund/stacksplit.
 
 **_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.
 available at https://robporritt.wordpress.com/software/.
@@ -204,15 +204,15 @@ available at https://robporritt.wordpress.com/software/.
 [**_Silver, P. G. & Chan, W. W. (1991)_**](https://doi.org/10.1029/91JB00899).
 Shear wave splitting and subcontinental mantle deformation.
 *Journal of Geophysical Research*, volume 96, issue B10, pages 16429-16454.
-doi: https://doi.org/10.1029/91JB00899.
+https://doi.org/10.1029/91JB00899.
 
 [**_Walsh, E., Arnold, R. & Savage, M. K. (2013)_**](https://doi.org/10.1002/jgrb.50386).
 Silver and Chan revisited.
 *Journal of Geophysical Research: Solid Earth*, volume 118, issue 10, pages 5500-5515.
-doi: https://doi.org/10.1002/jgrb.50386.
+https://doi.org/10.1002/jgrb.50386.
 
 [**_Wüstefeld, A., Bokelmann, G., Zaroli, C. & Barruol, G.  (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002).
 SplitLab: A shear-wave splitting environment in Matlab.
 *Computers & Geosciences*, volume 34, issue 5, pages 515-528.
-doi: https://doi.org/10.1016/j.cageo.2007.08.002.
+https://doi.org/10.1016/j.cageo.2007.08.002.
 version 1.0.5 available at http://splitting.gm.univ-montp2.fr/ and version 1.9.0 available at https://github.com/IPGP/splitlab.
