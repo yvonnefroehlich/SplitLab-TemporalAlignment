@@ -1,29 +1,23 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_
 
-This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_
-([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
-causing a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other. 
-The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead 
-to a wrong shear wave splitting measurement.<br/>
-Here a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
-of the _SplitLab_ function `getFileAndEQseconds.m` for the offical _SplitLab_ versions are provided.<br/>
+This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other. 
+The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to a wrong shear wave splitting measurement.
+
+Here we provide a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
+of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
+
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
-([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051) during the installation.
+([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051) during the installation process.
 
+## Citation
 
-
-
-## Citiation
-
-If you make use of this material please cite the relating publication, in which this issue is described in detail:
+If you make use of this material please cite the relating publication in which this issue is described in detail:
 
 **_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. 
 On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
 *Annals of Geophysics*, volume xx, issue xx, pages xxx-xxx. doi: xxx.
 
 Futhermore you can cite the Zenodo Doi given above.
-
-
 
 ## Content
 
@@ -38,11 +32,11 @@ Futhermore you can cite the Zenodo Doi given above.
   
 - folder `02_SL_diagnosticplots`
   - _SplitLab_ diagnostic plots for comparison (pdf and png format)
-  - without (...`_wrong`) and with (...`_correct`) consideration of the milliseconds (msec)
+  - without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msec)
 
 - folder `03_SL_getFileAndEQseconds`
   - modified _SplitLab_ function `getFileAndEQseconds.m`
-  - all three _SplitLab_ versions (...`_SLxyz`)
+  - all three _SplitLab_ versions (`*_SLxyz`)
 
 
 
@@ -103,8 +97,8 @@ Futhermore you can cite the Zenodo Doi given above.
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
 
   - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
-  - shape of the E-N particle motion: linear or elliptic ?
-  - SKS phase-related signal on the transverse (T) component: no or yes ?
+  - shape of the E-N particle motion: linear or elliptic?
+  - SKS phase-related signal on the transverse (T) component: yes or no?
 
 
 ### Details on earthquakes and traces
@@ -161,9 +155,9 @@ Futhermore you can cite the Zenodo Doi given above.
 ### _SplitLab_ versions
 
 - folder `03_SL_getFileAndEQseconds`
-  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (...`_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
-  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (...`_SL121`) (**_Porritt, 2014_**)
-  - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (...`_SL190`)
+  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
+  - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`)
 
 
 ### How to do
