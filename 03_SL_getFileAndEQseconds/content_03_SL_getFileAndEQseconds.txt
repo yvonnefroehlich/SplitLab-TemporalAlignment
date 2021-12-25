@@ -1,1 +1,3 @@
-Subfolder with suggested correction of the SplitLab function getFileAndEQseconds.m for the offical SplitLab versions
+Subfolder with suggested correction of the SplitLab function getFileAndEQseconds.m for the publicly available SplitLab versions
+
+The filename end '_SLxyz' indicates the SplitLab version.
