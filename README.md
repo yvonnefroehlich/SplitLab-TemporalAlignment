@@ -36,7 +36,7 @@ Futhermore you can cite the Zenodo Doi given above.
 
 - folder `03_SL_getFileAndEQseconds`
   - modified _SplitLab_ function `getFileAndEQseconds.m`
-  - all three _SplitLab_ versions (`*_SLxyz`)
+  - publicly available _SplitLab_ versions (`*_SLxyz`)
 
 
 
@@ -97,7 +97,7 @@ Futhermore you can cite the Zenodo Doi given above.
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
 
   - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
-  - shape of the E-N particle motion: linear or elliptic?
+  - shape of the E-N particle motion: elliptic or linear?
   - SKS phase-related signal on the transverse (T) component: yes or no?
 
 
