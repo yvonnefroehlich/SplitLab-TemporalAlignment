@@ -16,7 +16,7 @@ If you make use of this material please cite the relating publication in which t
 On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
 submitted to *Annals of Geophysics*.
 
-Futhermore you can cite the Zenodo Doi given above.
+Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030) given above.
 
 ## Content
 
