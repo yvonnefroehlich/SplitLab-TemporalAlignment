@@ -15,7 +15,7 @@ If you make use of this material please cite the relating publication in which t
 
 **_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. 
 On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
-*Annals of Geophysics*, volume xx, issue xx, pages xxx-xxx. doi: xxx.
+submitted to *Annals of Geophysics*.
 
 Futhermore you can cite the Zenodo Doi given above.
 
