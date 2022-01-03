@@ -156,6 +156,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 - folder `03_SL_getFileAndEQseconds`
   - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
+  - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`)
 
 
@@ -181,6 +182,9 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
 *Geophysical Journal International*, volume 88, issue 1, pages 25-41.
 https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
+
+**_Creasy, N. M. (2020)_**. SplitLab version 1.3.0.
+available at https://github.com/nmcreasy/SplitLab1.3.0.
 
 **_GEOFON Data Centre (1993)_**. GEOFON (GeoForschungsNetz).
 Deutsches GeoForschungsZentrum (GFZ), Seismic Network.
