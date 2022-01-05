@@ -170,10 +170,12 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 - **assign earthquake catalogue and seismological data in your _SplitLab_ project**
 
 
-## Versions
+## Releases
 
 - dev ([main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment))
 - [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)
+
+For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
 
 ## References
