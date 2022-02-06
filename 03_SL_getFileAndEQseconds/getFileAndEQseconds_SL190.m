@@ -107,7 +107,7 @@ else % USE FILENAME
             % miniSEED format (with commas)
             % 'TA.ELFS..LHZ.R.2006,123,153619.SAC'
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -136,7 +136,7 @@ else % USE FILENAME
             % 'YV.RR39.00.BH1.M.2012.318.221725.SAC' or also
             % 'YV.RUN01.00.BH1.M.2012.318.221725.SAC' ..
             
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -171,7 +171,7 @@ else % USE FILENAME
         case 'SEISAN' % should be soft-coded ..
             % SEISAN format '2003-05-26-0947-20S.HOR___003_HORN__BHZ__SAC'
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -190,7 +190,7 @@ else % USE FILENAME
         case 'YYYY.JJJ.hh.mm.ss.stn.sac.e'
             % Format: 1999.136.15.25.00.ATD.sac.z
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -206,7 +206,7 @@ else % USE FILENAME
         case 'YYYY.MM.DD.hh.mm.ss.stn.E.sac';
             % Format: 2003.10.07-05.07.15.DALA.sac.z
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -225,7 +225,7 @@ else % USE FILENAME
         case 'YYYY.MM.DD-hh.mm.ss.stn.sac.e';
             % Format: 2003.10.07-05.07.15.DALA.sac.z
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -244,7 +244,7 @@ else % USE FILENAME
         case 'YYYY_MM_DD_hhmm_stnn.sac.e';
             % Format: 2005_03_02_1155_pptl.sac (LDG/CEA data)
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero seconds\rm!', ...
                     'Check seconds' ,'warn', ...
                     struct('WindowStyle',{'modal'},'Interpreter',{'tex'}) );
@@ -262,7 +262,7 @@ else % USE FILENAME
         case 'stn.YYMMDD.hhmmss.e'
             % Format: fp2.030723.213056.X (BroadBand OBS data)
 
-			% YF add waring 2021/Nov/28
+			% YF add warning 2021/Nov/28
 			msgbox( {'Only correct for traces with start times of \bfzero milliseconds\rm!'; ...
 					'Only correct for \bfyear 2000 or later\rm!'}, ...
                     'Check milliseconds and year' ,'warn', ...
