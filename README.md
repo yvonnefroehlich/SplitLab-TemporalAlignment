@@ -12,9 +12,9 @@ This modified _SplitLab_ function is also introduced by [_StackSplit_](https://g
 
 If you make use of this material please cite the relating publication in which this issue is described in detail:
 
-**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (202x)_**. 
+**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (2022)_**. 
 On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
-submitted to *Annals of Geophysics*.
+accepted by *Annals of Geophysics*.
 
 Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030) given above.
 
