@@ -178,6 +178,11 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
 
+## Contributing
+ 
+For bug reports, suggestions or recommendations feel free to open an issue or submit a pull request directly here on GitHub.
+
+
 ## References
 
 [**_Bowman, J. R. & Ando, M. (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
