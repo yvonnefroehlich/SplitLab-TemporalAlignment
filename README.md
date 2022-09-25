@@ -23,7 +23,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 - Folder `00_SAC_files`
   - Subfolders corresponding to some of the filename formats supported by _SplitLab_
   - Vertical (Z), North (N), East (E) components as SAC-files
-  - Sampling interval: 0.05 sec
+  - Sampling interval: 0.05 s
 
 - Folder `01_your_results`
   - Until now empty
@@ -81,8 +81,8 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
     - Phases: (at least) SKS, SKKS, PKS
   - Find files
     - File search string: corresponding to the chosen filename format
-    - Offset: 0 sec
-    - Tolerance: 420 sec
+    - Offset: 0 s
+    - Tolerance: 420 s
 
 </p>
 </details>
