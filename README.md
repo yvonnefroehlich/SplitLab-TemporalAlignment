@@ -115,7 +115,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Backazimuth: 246.5 deg
   - Epicentral distance: 95.29 deg
 - Traces
-  - Msecs of start times: North = 0027, East = 0927, Vertical = 0627
+  - msecs of start times: North = 0027, East = 0927, Vertical = 0627
   - Relative msec difference: |E-N| = |900| i.e. |18| samples
 
 **Stuttgart (STU), 2009/11/14 (2009.318)**
@@ -128,7 +128,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Backazimuth: 244.5 deg
   - Epicentral distance: 98.15 deg
 - Traces
-  - Msecs of start times: North = 0145, East = 0895, Vertical = 0945
+  - msecs of start times: North = 0145, East = 0895, Vertical = 0945
   - Relative msec difference: |E-N| = |750| i.e. |15| samples
 
 **Échery (ECH), 2018/08/28 (2018.240)**
@@ -141,7 +141,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Backazimuth: 40.1 deg
   - Epicentral depth: 106.00 deg
 - Traces
-  - Msecs of start times: North = 0950, East = 0000, Vertical = 0950
+  - msecs of start times: North = 0950, East = 0000, Vertical = 0950
   - Relative msec difference: |E-N| = |950| i.e. |19| samples
 
 </p>
