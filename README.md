@@ -51,7 +51,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 **1) Set up _SplitLab_ project**
 
-<details><summary>click for single steps</summary>
+<details><summary>Click for single steps</summary>
 <p>
 
   - General
@@ -102,7 +102,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 ### Details on earthquakes and traces
 
-<details><summary>click for more information</summary>
+<details><summary>Click for more information</summary>
 <p>
 
 **Stuttgart (STU), 2001/06/29 (2001.180)**
