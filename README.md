@@ -30,7 +30,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Output folder for your own shear wave splitting measurement results
 
 - Folder `02_SL_diagnosticplots`
-  - _SplitLab_ diagnostic plots for comparison (pdf and png format)
+  - _SplitLab_ diagnostic plots for comparison (PDF and PNG format)
   - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msec)
 
 - Folder `03_SL_getFileAndEQseconds`
