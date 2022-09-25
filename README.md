@@ -116,7 +116,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Epicentral distance: 95.29 deg
 - Traces
   - msecs of start times: North = 0027, East = 0927, Vertical = 0627
-  - Relative msec difference: |E-N| = |900| i.e. |18| samples
+  - Relative msec difference: |E-N| = |900|, i.e., |18| samples
 
 **Stuttgart (STU), 2009/11/14 (2009.318)**
 - Earthquake
@@ -129,7 +129,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Epicentral distance: 98.15 deg
 - Traces
   - msecs of start times: North = 0145, East = 0895, Vertical = 0945
-  - Relative msec difference: |E-N| = |750| i.e. |15| samples
+  - Relative msec difference: |E-N| = |750|, i.e., |15| samples
 
 **Échery (ECH), 2018/08/28 (2018.240)**
 - Earthquake
@@ -142,7 +142,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
   - Epicentral depth: 106.00 deg
 - Traces
   - msecs of start times: North = 0950, East = 0000, Vertical = 0950
-  - Relative msec difference: |E-N| = |950| i.e. |19| samples
+  - Relative msec difference: |E-N| = |950|, i.e., |19| samples
 
 </p>
 </details>
@@ -164,7 +164,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 - The filename part `xyz` or `x.y.z` indicates the _SplitLab_ version
 - Go to the folder `~/SplitLabx.y.z/Tools/` on your computer
-- Rename the existing function `getFileAndEQseconds.m` e.g. `getFileAndEQseconds_original.m` in this folder
+- Rename the existing function `getFileAndEQseconds.m`, e.g., `getFileAndEQseconds_original.m` in this folder
 - Copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
 - Remove the end of the filename `_SLxyz`
 - **Assign earthquake catalogue and seismological data in your _SplitLab_ project**
