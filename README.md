@@ -162,7 +162,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 ### How to do
 
-- `xyz` or `x.y.z` indicates the _SplitLab_ version
+- The filename part `xyz` or `x.y.z` indicates the _SplitLab_ version
 - Go to the folder `~/SplitLabx.y.z/Tools/` on your computer
 - Rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
 - Copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
