@@ -1,8 +1,8 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_ [![DOI](https://zenodo.org/badge/427954259.svg)](https://zenodo.org/badge/latestdoi/427954259)
-This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other. 
+This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to a wrong shear wave splitting measurement.
 
-Here we provide a test with seismologcial data for your personal _SplitLab_ version and a suggested correction 
+Here we provide a test with seismologcial data for your personal _SplitLab_ version and a suggested correction
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
@@ -12,30 +12,30 @@ This modified _SplitLab_ function is also introduced by [_StackSplit_](https://g
 
 If you make use of this material please cite the relating publication in which this issue is described in detail:
 
-[**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (2022)_**](https://doi.org/10.4401/ag-8781). 
-On the effects of wrongly aligned seismogram components for shear wave splitting analysis. 
+[**_Fröhlich, Y., Grund, M. & Ritter, J. R. R. (2022)_**](https://doi.org/10.4401/ag-8781).
+On the effects of wrongly aligned seismogram components for shear wave splitting analysis.
 *Annals of Geophysics*, volume 65. https://doi.org/10.4401/ag-8781.
 
 Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030) given above.
 
 ## Content
 
-- folder `00_SAC_files`
-  - subfolders corresponding to some of the filename formats supported by _SplitLab_
-  - Vertical (Z), North (N), East (E) components as SAC-files 
-  - sampling interval: 0.05 sec 
+- Folder `00_SAC_files`
+  - Subfolders corresponding to some of the filename formats supported by _SplitLab_
+  - Vertical (Z), North (N), East (E) components as SAC-files
+  - Sampling interval: 0.05 s
 
-- folder `01_your_results`
-  - until now empty
-  - output folder for your own shear wave splitting measurement results
-  
-- folder `02_SL_diagnosticplots`
-  - _SplitLab_ diagnostic plots for comparison (pdf and png format)
-  - without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msec)
+- Folder `01_your_results`
+  - Until now empty
+  - Output folder for your own shear wave splitting measurement results
 
-- folder `03_SL_getFileAndEQseconds`
-  - modified _SplitLab_ function `getFileAndEQseconds.m`
-  - publicly available _SplitLab_ versions (`*_SLxyz`)
+- Folder `02_SL_diagnosticplots`
+  - _SplitLab_ diagnostic plots for comparison (PDF and PNG format)
+  - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msec)
+
+- Folder `03_SL_getFileAndEQseconds`
+  - Modified _SplitLab_ function `getFileAndEQseconds.m`
+  - Publicly available _SplitLab_ versions (`*_SLxyz`)
 
 
 
@@ -51,98 +51,98 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 **1) Set up _SplitLab_ project**
 
-<details><summary>click for single steps</summary>
+<details><summary>Click for single steps</summary>
 <p>
 
-  - general
-    - seismic data directory
-	  - go to folder `00_SAC_files`
-	  - select subfolder with preferred filename format
-    - output directory
-	  - select folder `01_your_results`
-  - station
+  - General
+    - Seismic data directory
+	  - Go to folder `00_SAC_files`
+	  - Select subfolder with preferred filename format
+    - Output directory
+	  - Select folder `01_your_results`
+  - Station
     - Stuttgart
-      - station code: STU
-      - network code: GE
-      - latitude in deg North: 48.771
-      - longitude in deg East: 9.194
+      - Station code: STU
+      - Network code: GE
+      - Latitude in deg North: 48.771
+      - Longitude in deg East: 9.194
     - Échery
-      - station code: ECH
-      - network code: G
-      - latitude in deg North: 48.216
-      - longitude in deg East: 7.159
-  - event window
-    - (moment) magnitude: 6.00 to 9.75
-    - (epicentral) distance in deg: 90 to 140
-    - (hypocentral) depth in km: 0 to 1000
-    - start and end date: corresponding to the date of the chosen example / earthquake
-  - phases
+      - Station code: ECH
+      - Network code: G
+      - Latitude in deg North: 48.216
+      - Longitude in deg East: 7.159
+  - Event window
+    - Moment magnitude: 6.00 to 9.75
+    - Epicentral distance in deg: 90 to 140
+    - Hypocentral depth in km: 0 to 1000
+    - Start and end date: corresponding to the date of the chosen example / earthquake
+  - Phases
     - Earth model: IASP91
-    - phases: (at least) SKS, SKKS, PKS
-  - find files
-    - file search string: corresponding to the chosen filename format
-    - offset: 0 sec
-    - tolerance: 420 sec
+    - Phases: (at least) SKS, SKKS, PKS
+  - Find files
+    - File search string: corresponding to the chosen filename format
+    - Offset: 0 s
+    - Tolerance: 420 s
 
 </p>
 </details>
 
 **2) Perform shear wave splitting measurement**
 
-  - bandpass filter: 0.020 Hz (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
-  - coordinate system: LQT
-  - phase: SKS
+  - Bandpass filter: 0.020 Hz (lower corner), 0.20 Hz or 0.15 Hz (upper corner)
+  - Coordinate system: LQT
+  - Phase: SKS
 
 **3) Compare your result / _SplitLab_ diagnostic plot with the provided diagnostic plots**
 
-  - folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
-  - shape of the E-N particle motion: elliptic or linear?
+  - Folder `02_SL_diagnosticplots`: diagnostic plots for wrong and correct relative temporal alignment
+  - Shape of the E-N particle motion: elliptic or linear?
   - SKS phase-related signal on the transverse (T) component: yes or no?
 
 
 ### Details on earthquakes and traces
 
-<details><summary>click for more information</summary>
+<details><summary>Click for more information</summary>
 <p>
 
 **Stuttgart (STU), 2001/06/29 (2001.180)**
-- earthquake
-  - date: 2001/06/29 (2001.180)
-  - time: 18:35:51 (UTC)
-  - moment magnitude: 6.1
-  - source region: Southern Bolivia
-  - hypocentral depth: 274 km
-  - backazimuth: 246.5 deg
-  - epicentral distance: 95.29 deg
-- traces
+- Earthquake
+  - Date: 2001/06/29 (2001.180)
+  - Time: 18:35:51 (UTC)
+  - Moment magnitude: 6.1
+  - Source region: Southern Bolivia
+  - Hypocentral depth: 274 km
+  - Backazimuth: 246.5 deg
+  - Epicentral distance: 95.29 deg
+- Traces
   - msecs of start times: North = 0027, East = 0927, Vertical = 0627
-  - relative msec difference: |E-N| = |900| i. e. |18| samples
+  - Relative msec difference: |E-N| = |900|, i.e., |18| samples
 
 **Stuttgart (STU), 2009/11/14 (2009.318)**
-- earthquake
-  - date: 2009/11/14 (2009.318)
-  - time: 19:44:29 (UTC)
-  - moment magnitude: 6.2
-  - source region: Jujuy province, Argentina
-  - hypocentral depth: 220 km
-  - backazimuth: 244.5 deg
-  - epicentral distance: 98.15 deg
-- traces
+- Earthquake
+  - Date: 2009/11/14 (2009.318)
+  - Time: 19:44:29 (UTC)
+  - Moment magnitude: 6.2
+  - Source region: Jujuy province, Argentina
+  - Hypocentral depth: 220 km
+  - Backazimuth: 244.5 deg
+  - Epicentral distance: 98.15 deg
+- Traces
   - msecs of start times: North = 0145, East = 0895, Vertical = 0945
-  - relative msec difference: |E-N| = |750| i. e. |15| samples
+  - Relative msec difference: |E-N| = |750|, i.e., |15| samples
 
 **Échery (ECH), 2018/08/28 (2018.240)**
-- earthquake
-  - date: 2018/08/28 (2018.240)
-  - time: 22:35:13 (UTC)
-  - moment magnitude: 6.5
-  - source region: Mariana Islands
-  - hypocentral depth: 60 km
-  - backazimuth: 40.1 deg
-  - epicentral depth: 106.00 deg
-- traces
+- Earthquake
+  - Date: 2018/08/28 (2018.240)
+  - Time: 22:35:13 (UTC)
+  - Moment magnitude: 6.5
+  - Source region: Mariana Islands
+  - Hypocentral depth: 60 km
+  - Backazimuth: 40.1 deg
+  - Epicentral depth: 106.00 deg
+- Traces
   - msecs of start times: North = 0950, East = 0000, Vertical = 0950
-  - relative msec difference: |E-N| = |950| i. e. |19| samples
+  - Relative msec difference: |E-N| = |950|, i.e., |19| samples
 
 </p>
 </details>
@@ -153,7 +153,7 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 ### _SplitLab_ versions
 
-- folder `03_SL_getFileAndEQseconds`
+- Folder `03_SL_getFileAndEQseconds`
   - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
   - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**) (based on _SplitLab_ 1.2.1)
@@ -162,12 +162,12 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 ### How to do
 
-- `xyz` or `x.y.z` indicates the _SplitLab_ version
-- go to the folder `~/SplitLabx.y.z/Tools/` on your computer
-- rename the existing function `getFileAndEQseconds.m` e. g. `getFileAndEQseconds_original.m` in this folder
-- copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
-- remove the end of the filename `_SLxyz`
-- **assign earthquake catalogue and seismological data in your _SplitLab_ project**
+- The filename part `xyz` or `x.y.z` indicates the _SplitLab_ version
+- Go to the folder `~/SplitLabx.y.z/Tools/` on your computer
+- Rename the existing function `getFileAndEQseconds.m`, e.g., `getFileAndEQseconds_original.m` in this folder
+- Copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
+- Remove the end of the filename `_SLxyz`
+- **Assign earthquake catalogue and seismological data in your _SplitLab_ project**
 
 
 ## Releases
@@ -179,7 +179,7 @@ For details on the single releases see the [changelog](https://github.com/yvonne
 
 
 ## Contributing
- 
+
 For bug reports, suggestions or recommendations feel free to open an issue or submit a pull request directly here on GitHub.
 
 
