@@ -205,7 +205,7 @@ https://doi.org/10.18715/GEOSCOPE.G.
 StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
 *Computers & Geosciences*, volume 105, pages 43-50.
 https://doi.org/10.1016/j.cageo.2017.04.015.
-versions [1.0](https://doi.org/10.5281/zenodo.464385), 2.0, and [3.0](https://doi.org/10.5281/zenodo.5802051)
+versions [1.0](https://doi.org/10.5281/zenodo.464385), [2.0](https://doi.org/10.5281/zenodo.7118716), and [3.0](https://doi.org/10.5281/zenodo.5802051)
 available at https://github.com/michaelgrund/stacksplit.
 
 **_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.
