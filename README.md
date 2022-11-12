@@ -182,7 +182,7 @@ For details on the single releases see the [changelog](https://github.com/yvonne
 
 ## Contributing
 
-For bug reports, suggestions or recommendations feel free to open an issue or submit a pull request directly here on GitHub.
+For bug reports, suggestions or recommendations feel free to [open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues) or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls) directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
 
 
 ## References
