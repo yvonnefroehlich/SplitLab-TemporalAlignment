@@ -172,15 +172,18 @@ Futhermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030)
 
 ## Releases
 
-- dev ([main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment))
-- [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)
+|release|Zenodo DOI|
+|---|---|
+|dev |reflects [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment)|
+|[v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)|[![DOI](https://zenodo.org/badge/427954259.svg)](https://zenodo.org/badge/latestdoi/427954259)|
+
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
 
 ## Contributing
 
-For bug reports, suggestions or recommendations feel free to open an issue or submit a pull request directly here on GitHub.
+For bug reports, suggestions or recommendations feel free to [open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues) or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls) directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
 
 
 ## References
