@@ -172,8 +172,10 @@ Futhermore you can cite the [Zenodo Doi](https://doi.org/10.5281/zenodo.5805030)
 
 ## Releases
 
-- dev ([main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment))
-- [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)
+|release|Zenodo DOI|
+|---|---|
+|dev |reflects ([main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment))|
+|[v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)|[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7213157.svg)](https://doi.org/10.5281/zenodo.7213157)|
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
