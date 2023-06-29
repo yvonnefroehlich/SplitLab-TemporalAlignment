@@ -31,7 +31,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 
 - Folder `02_SL_diagnosticplots`
   - _SplitLab_ diagnostic plots for comparison (PDF and PNG format)
-  - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msec)
+  - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msecs)
 
 - Folder `03_SL_getFileAndEQseconds`
   - Modified _SplitLab_ function `getFileAndEQseconds.m`
