@@ -7,7 +7,7 @@ function [FIsec, FIyyyy, EQsec, Omarker] = getFileAndEQseconds(F,eqin,offset)
 %
 
 % Windows user can try a renamer , for example 1-4aren (one-for all renamer)
-% http://www.1-4a.com/rename/ perhaps this adress is still valid
+% http://www.1-4a.com/rename/ perhaps this address is still valid
 
 
 %==========================================================================
@@ -49,7 +49,7 @@ if config.UseHeaderTimes || strcmp(config.FileNameConvention, '*.e; *.n; *.z')
         Omarker(k) = lh(sac, 'O');
     end
     if any(FIMSEC==-12345) || any(FISS==-12345) || any(FIMM==-12345) || any(FIHH==-12345) || any(FIddd==-12345) || any(FIyyyy==-12345)
-        disp('WARNING: Some header times are not set propperly. Assigning files with no warranty')
+        disp('WARNING: Some header times are not set properly. Assigning files with no warranty')
     end
      FISS  ( FISS    == -12345) = 0;
      FIMSEC( FIMSEC  == -12345) = 0;
