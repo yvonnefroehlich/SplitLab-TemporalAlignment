@@ -2,7 +2,7 @@
 This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to a wrong shear wave splitting measurement.
 
-Here we provide a test with seismologcial data for your personal _SplitLab_ version and a suggested correction
+Here we provide a test with seismological data for your personal _SplitLab_ version and a suggested correction
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
