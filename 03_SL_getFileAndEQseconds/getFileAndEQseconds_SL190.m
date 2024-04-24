@@ -11,16 +11,17 @@ function [FIsec, FIyyyy, EQsec, Omarker] = getFileAndEQseconds(F,eqin,offset)
 
 
 %==========================================================================
-% July-December 2021
-% Yvonne Fröhlich (YF), Karlsruhe Institute of Technology (KIT),
-% ORCID: 0000-0002-8566-0619
-% Email: yvonne.froehlich@kit.edu
-% GitHub: https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment
-% => modifications to fix extraction of start time by SplitLab
-% (unconsidered milliseconds or seconds of start time)
-% Publication: Fröhlich, Grund, Ritter (2022) Annals of Geophysics
-% https://doi.org/10.4401/ag-8781
+% Yvonne Fröhlich (YF)
+% ORCID: https://orcid.org/0000-0002-8566-0619
 %
+% July-December 2021
+% Modifications to fix extraction of start time by SplitLab
+% (unconsidered milliseconds or seconds of start time)
+%
+% - GitHub: https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment
+% - Zenodo: https://doi.org/10.5281/zenodo.5805030
+% - Publication: Fröhlich, Grund, Ritter (2022) Annals of Geophysics
+%              https://doi.org/10.4401/ag-8781
 %==========================================================================
 
 
