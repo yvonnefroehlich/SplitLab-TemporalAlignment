@@ -8,6 +8,7 @@ of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _S
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
 ([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051) during the installation process.
 
+
 ## Citation
 
 If you make use of this material, please cite the relating publication in which this issue is described in detail:
@@ -17,6 +18,7 @@ On the effects of wrongly aligned seismogram components for shear wave splitting
 *Annals of Geophysics*, volume 65. https://doi.org/10.4401/ag-8781.
 
 Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030) given above.
+
 
 ## Content
 
@@ -36,7 +38,6 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 - Folder `03_SL_getFileAndEQseconds`
   - Modified _SplitLab_ function `getFileAndEQseconds.m`
   - Publicly available _SplitLab_ versions (`*_SLxyz`)
-
 
 
 ## Test
@@ -99,7 +100,6 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
   - Shape of the E-N particle motion: elliptic or linear?
   - SKS phase-related signal on the transverse (T) component: yes or no?
 
-
 ### Details on earthquakes and traces
 
 <details><summary>Click for more information</summary>
@@ -148,7 +148,6 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 </details>
 
 
-
 ## _SplitLab_ function `getFileAndEQseconds.m`
 
 ### _SplitLab_ versions
@@ -159,7 +158,6 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
   - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**) (based on _SplitLab_ 1.2.1)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`)
 
-
 ### How to do
 
 - The filename part `xyz` or `x.y.z` indicates the _SplitLab_ version
@@ -169,14 +167,12 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 - Remove the end of the filename `_SLxyz`
 - **Assign earthquake catalogue and seismological data in your _SplitLab_ project**
 
-
 ## Releases
 
 |release|Zenodo DOI|
 |---|---|
 |dev |reflects [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment)|
 |[v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)|[![DOI](https://zenodo.org/badge/427954259.svg)](https://zenodo.org/badge/latestdoi/427954259)|
-
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
