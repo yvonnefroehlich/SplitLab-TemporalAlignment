@@ -229,3 +229,10 @@ SplitLab: A shear-wave splitting environment in Matlab.
 *Computers & Geosciences*, volume 34, issue 5, pages 515-528.
 https://doi.org/10.1016/j.cageo.2007.08.002.
 version 1.0.5 available at http://splitting.gm.univ-montp2.fr/ and version 1.9.0 available at https://github.com/IPGP/splitlab.
+
+
+## Funding
+
+YF is supported by
+
+- Scholarship of the [Graduate Funding from the German States](https://www.khys.kit.edu/english/graduate_funding.php)
