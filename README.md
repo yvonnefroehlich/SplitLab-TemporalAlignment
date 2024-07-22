@@ -22,20 +22,20 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 
 ## Content
 
-- Folder `00_SAC_files`
+- [`00_SAC_files`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/00_SAC_files)
   - Subfolders corresponding to some of the filename formats supported by _SplitLab_
   - Vertical (Z), North (N), East (E) components as SAC-files
   - Sampling interval: 0.05 s
 
-- Folder `01_your_results`
+- [`01_your_results`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/01_your_results)
   - Until now empty
   - Output folder for your own shear wave splitting measurement results
 
-- Folder `02_SL_diagnosticplots`
+- [`02_SL_diagnosticplots`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/02_SL_diagnosticplots)
   - _SplitLab_ diagnostic plots for comparison (PDF and PNG format)
   - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msecs)
 
-- Folder `03_SL_getFileAndEQseconds`
+- [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
   - Modified _SplitLab_ function `getFileAndEQseconds.m`
   - Publicly available _SplitLab_ versions (`*_SLxyz`)
 
@@ -152,7 +152,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 
 ### _SplitLab_ versions
 
-- Folder `03_SL_getFileAndEQseconds`
+- [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
   - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
   - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**) (based on _SplitLab_ 1.2.1)
@@ -166,6 +166,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 - Copy and past the modified function `getFileAndEQseconds_SLxyz.m` into this folder
 - Remove the end of the filename `_SLxyz`
 - **Assign earthquake catalogue and seismological data in your _SplitLab_ project**
+
 
 ## Releases
 
