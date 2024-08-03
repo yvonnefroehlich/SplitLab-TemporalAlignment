@@ -153,7 +153,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 ### _SplitLab_ versions
 
 - [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
-  - [_SplitLab_ 1.0.5](http://splitting.gm.univ-montp2.fr/) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - _SplitLab_ 1.0.5 (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
   - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**; based on _SplitLab_ 1.2.1)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`) (based on _SplitLab_ 1.0.5)
@@ -225,7 +225,7 @@ https://doi.org/10.1002/jgrb.50386.
 SplitLab: A shear-wave splitting environment in Matlab.
 *Computers & Geosciences*, volume 34, issue 5, pages 515-528.
 https://doi.org/10.1016/j.cageo.2007.08.002.
-version 1.0.5 available at http://splitting.gm.univ-montp2.fr/ and version 1.9.0 available at https://github.com/IPGP/splitlab.
+version 1.0.5 **was** available at http://splitting.gm.univ-montp2.fr, version 1.9.0 is available at https://github.com/IPGP/splitlab.
 
 
 ## Funding
