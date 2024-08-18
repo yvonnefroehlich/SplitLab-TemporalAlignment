@@ -184,6 +184,21 @@ For details on the single releases see the [changelog](https://github.com/yvonne
 For bug reports, suggestions, or recommendations feel free to [open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues) or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls) directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
 
 
+## Related topics
+
+| Software | Language | Description | Author |
+| --- | --- | --- | --- |
+| SplitLab 1.0.5 | MATLAB | Original SplitLab version | Andreas Wüstefeld |
+| [SplitLab 1.2.1](https://robporritt.wordpress.com/software/) | MATLAB | Update of SplitLab 1.0.5 | Rob Porritt |
+| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala Creasy |
+| [SplitLab 1.9.0](https://github.com/IPGP/splitlab) | MATLAB | Most recent SplitLab version | IPGP |
+| [StackSplit](https://github.com/michaelgrund/stacksplit) | MATLAB | Plugin for multi-event analyses in SplitLab | Michael Grund |
+| [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam Reiss |
+| [SplitPy](https://github.com/paudetseis/SplitPy) | Python | Based on SplitLab | Pascal Audet |
+| [SWSPy](https://github.com/TomSHudson/swspy) | Python | Automated workflow | Tom Hudson |
+| [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl) | Julia |  | Andy Nowacki |
+
+
 ## References
 
 - [**_Bowman, J. R. & Ando, M. (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
