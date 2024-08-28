@@ -1,4 +1,6 @@
-# Temporal Alignment of Seismic Traces in _SplitLab_ [![DOI](https://zenodo.org/badge/427954259.svg)](https://zenodo.org/badge/latestdoi/427954259)
+# Temporal Alignment of Seismic Traces in _SplitLab_
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
+
 This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to a wrong shear wave splitting measurement.
 
@@ -18,7 +20,7 @@ If you make use of this material, please cite the relating publication in which 
   *Annals of Geophysics*, volume 66, issue 2.
   https://doi.org/10.4401/ag-8781.
 
-Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030) given above.
+Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805029) given above.
 
 
 ## Content
@@ -174,7 +176,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805030
 | Release | Zenodo DOI | Publication |
 | --- | --- | --- |
 | dev | reflects [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment) | [**_Fröhlich et al. (2024)_**](https://doi.org/10.1093/gji/ggae245) |
-| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)|[![DOI](https://zenodo.org/badge/427954259.svg)](https://zenodo.org/badge/latestdoi/427954259) | [**_Fröhlich et al. (2022)_**](https://doi.org/10.4401/ag-8781) |
+| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0)| [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805030.svg)](https://doi.org/10.5281/zenodo.5805030) | [**_Fröhlich et al. (2022)_**](https://doi.org/10.4401/ag-8781) |
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
