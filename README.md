@@ -197,6 +197,9 @@ For bug reports, suggestions, or recommendations feel free to [open an issue](ht
 | [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam Reiss |
 | [SplitPy](https://github.com/paudetseis/SplitPy) | Python | Based on SplitLab | Pascal Audet |
 | [SWSPy](https://github.com/TomSHudson/swspy) | Python | Automated workflow | Tom Hudson |
+| [Pytheas](https://github.com/ispingos/pytheas-splitting) | Python | Local shear-wave splitting studies | Ioannis Spingos |
+| [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py) | Python | Fully automated workflow | Utpal Kumar & Cédric Legendre |
+| [Sheba](https://github.com/jwookey/sheba) | Fortran |  | James Wookey |
 | [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl) | Julia |  | Andy Nowacki |
 
 
