@@ -21,9 +21,9 @@ function [FIsec, FIyyyy, EQsec, Omarker] = getFileAndEQseconds(F,eqin,offset)
 % (unconsidered milliseconds or seconds of start time)
 %
 % - GitHub: https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment
-% - Zenodo: https://doi.org/10.5281/zenodo.5805030
-% - Publication: Fröhlich, Grund, Ritter (2022) Annals of Geophysics
-%              https://doi.org/10.4401/ag-8781
+% - Zenodo: https://doi.org/10.5281/zenodo.5805029
+% - Publication: Fröhlich, Grund, Ritter (2022) Annals of Geophysics,
+%                volume 66(2). https://doi.org/10.4401/ag-8781.
 %==========================================================================
 
 
@@ -98,13 +98,13 @@ else % USE FILENAME
                FIHH      = str2double(F(i,commas(2)+1:colons(1)-1));
                FIMM      = str2double(F(i,colons(1)+1:colons(2)-1));
                FISS      = str2double(F(i,colons(2)+1:dots(end)-1));
-               FIsec(i)  = FISS + FIMM * 60 + FIHH * 3600 + (FIddd) * 86400;  
+               FIsec(i)  = FISS + FIMM * 60 + FIHH * 3600 + (FIddd) * 86400;
             end
 
         case 'mseed2sac2'
             % seems mseed2sac changed naming convention...
             % mseed2sac format: IU.HRV.00.BH1.M.2011.246.044859.SAC % YF year.jday.hourminsec
-           
+
 			% YF add warning 2021/Nov/28
 			msgbox( 'Only correct for traces with start times of \bfzero milliseconds\rm!', ...
                     'Check milliseconds' ,'warn', ...
@@ -138,7 +138,7 @@ else % USE FILENAME
                FISS      = str2double(F(i,dots(7)+5:dots(end)-1));
                FIsec(i)  = FISS + FIMM * 60 + FIHH * 3600 + (FIddd) * 86400;
             end
-     
+
         case 'RDSEED'
             % RDSEED format '1993.159.23.15.09.7760.IU.KEV..BHN.D.SAC' % YF year.jday.hour.min.sec.msec
             FIyyyy = str2num(F(:,1:4));
@@ -215,7 +215,7 @@ else % USE FILENAME
             FIdd   = str2num(F(:,9:10));
             FIHH   = str2num(F(:,12:13));
             FIMM   = str2num(F(:,14:15));
-            
+
             FIddd = dayofyear(FIyyyy',FImonth',FIdd')';%julian Day
             FIsec = FIMM*60 + FIHH*3600 + (FIddd)*86400;
 
