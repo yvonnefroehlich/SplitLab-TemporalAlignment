@@ -188,6 +188,10 @@ For bug reports, suggestions, or recommendations feel free to [open an issue](ht
 
 ## Related topics
 
+In the table below, some other tools for measuring shear wave splitting are listed.
+Please note, that these tools were not checked regarding the issue of an incorrect
+relative temporal alignment of the single component traces.
+
 | Software | Language | Description | Author |
 | --- | --- | --- | --- |
 | SplitLab 1.0.5 | MATLAB | Original SplitLab version | Andreas Wüstefeld, Götz Bokelmann & Christophe Zaroli |
