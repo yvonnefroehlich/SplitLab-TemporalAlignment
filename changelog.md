@@ -1,7 +1,7 @@
 # Changelog
 
 
-## Release v2.0 (2024/09/DD) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13760807.svg)](https://doi.org/10.5281/zenodo.13760807)
+## Release v2.0 (2024/09/18) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13760807.svg)](https://doi.org/10.5281/zenodo.13760807)
 
 - Add [corrected version of `getFileAndEQseconds.m` for SplitLab 1.3.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/03_SL_getFileAndEQseconds/getFileAndEQseconds_SL130.m)
 - Add [Contributing](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/add-changelog-v2.0?tab=readme-ov-file#contributing) section to the README
