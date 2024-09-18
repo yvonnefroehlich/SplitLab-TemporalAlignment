@@ -206,7 +206,7 @@ of an incorrect relative temporal alignment of the single component traces.
 | [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala Creasy |
 | [SplitLab 1.9.0](https://github.com/IPGP/splitlab) | MATLAB | Most recent SplitLab version| IPGP |
 | [StackSplit](https://github.com/michaelgrund/stacksplit) | MATLAB | Plugin for multi-event analyses in SplitLab | Michael Grund & Yvonne Fröhlich |
-| [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam Reiss |
+| [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam C. Reiss |
 | [SplitPy](https://github.com/paudetseis/SplitPy) | Python | Based on SplitLab | Pascal Audet & Andrew Schaeffer |
 | [SWSPy](https://github.com/TomSHudson/swspy) | Python | Automated workflow | Tom Hudson, Andrew M. Walker & Joseph Asplet|
 | [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py) | Python | Fully automated workflow | Utpal Kumar & Cédric Legendre |
