@@ -1,13 +1,17 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
 
-This material addresses an error source in the code of the MATLAB based shear wave splitting software package _SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
-The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to a wrong shear wave splitting measurement.
+This material addresses an error source in the code of the MATLAB based shear wave splitting software package
+_SplitLab_ ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a
+wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
+The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to
+a wrong shear wave splitting measurement.
 
 Here we provide a test with seismological data for your personal _SplitLab_ version and a suggested correction
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
-([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051) during the installation process.
+([**_Grund, 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051)
+during the installation process.
 
 
 ## Citation
@@ -34,7 +38,7 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805029
   - Output folder for your own shear wave splitting measurement results
 
 - [`02_SL_diagnosticplots`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/02_SL_diagnosticplots)
-  - _SplitLab_ diagnostic plots for comparison (PDF and PNG format)
+  - _SplitLab_ diagnostic plots for comparison (PDF and PNG formats)
   - Without (`*_wrong`) and with (`*_correct`) consideration of the milliseconds (msecs)
 
 - [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
@@ -172,25 +176,28 @@ Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805029
 
 ## Releases
 
-| Release | Zenodo DOI | Publication |
-| --- | --- | --- |
-| dev [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment) |  |  |
-| [v2.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v2.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13760807.svg)](https://doi.org/10.5281/zenodo.13760807) | [**_Fröhlich et al. (2024)_**](https://doi.org/10.1093/gji/ggae245) |
-| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805030.svg)](https://doi.org/10.5281/zenodo.5805030) | [**_Fröhlich et al. (2022)_**](https://doi.org/10.4401/ag-8781) |
+| Release | Zenodo DOI |
+| --- | --- |
+| dev [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment) |  |
+| [v2.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v2.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13760807.svg)](https://doi.org/10.5281/zenodo.13760807) |
+| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805030.svg)](https://doi.org/10.5281/zenodo.5805030) |
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
 
 ## Contributing
 
-For bug reports, suggestions, or recommendations feel free to [open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues) or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls) directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
+For bug reports, suggestions, or recommendationsfeel free to
+[open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues)
+or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls)
+directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
 
 
 ## Related topics
 
-In the table below, some other tools for measuring shear wave splitting are listed.
-Please note, that these tools were not checked regarding the issue of an incorrect
-relative temporal alignment of the single component traces.
+In the table below, some other tools for measuring shear wave splitting (besides _SplitLab_)
+are listed. Please note, that these tools were not checked regarding the issue
+of an incorrect relative temporal alignment of the single component traces.
 
 | Software | Language | Description | Author |
 | --- | --- | --- | --- |
@@ -247,6 +254,6 @@ relative temporal alignment of the single component traces.
 
 ## Funding
 
-The presented research and YF received support from various sources:
+The presented research and YF received support from:
 
 - Scholarship of the [Graduate Funding from the German States](https://www.khys.kit.edu/english/graduate_funding.php)
