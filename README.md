@@ -199,11 +199,11 @@ In the table below, some other tools for measuring shear wave splitting (besides
 are listed. Please note, that these tools were not checked regarding the issue
 of an incorrect relative temporal alignment of the single component traces.
 
-| Software | Language | Description | Author |
+| Software | Language | Description | Authors |
 | --- | --- | --- | --- |
 | SplitLab 1.0.5 | MATLAB | Original SplitLab version | Andreas Wüstefeld, Götz Bokelmann & Christophe Zaroli |
 | [SplitLab 1.2.1](https://robporritt.wordpress.com/software/) | MATLAB | Update of SplitLab 1.0.5 | Rob Porritt |
-| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala Creasy |
+| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala M. Creasy |
 | [SplitLab 1.9.0](https://github.com/IPGP/splitlab) | MATLAB | Most recent SplitLab version| IPGP |
 | [StackSplit](https://github.com/michaelgrund/stacksplit) | MATLAB | Plugin for multi-event analyses in SplitLab | Michael Grund & Yvonne Fröhlich |
 | [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam C. Reiss |
@@ -234,7 +234,7 @@ of an incorrect relative temporal alignment of the single component traces.
   *Computers & Geosciences*, volume 105, pages 43-50.
   https://doi.org/10.1016/j.cageo.2017.04.015.
   versions [1.0](https://doi.org/10.5281/zenodo.464385), [2.0](https://doi.org/10.5281/zenodo.7118716), and [3.0](https://doi.org/10.5281/zenodo.5802051)
-  available at https://github.com/michaelgrund/stacksplit.
+  are available at https://github.com/michaelgrund/stacksplit.
 - **_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.
   available at https://robporritt.wordpress.com/software/.
 - [**_Silver, P. G. & Chan, W. W. (1991)_**](https://doi.org/10.1029/91JB00899).
