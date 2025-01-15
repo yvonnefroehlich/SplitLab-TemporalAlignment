@@ -202,7 +202,7 @@ of an incorrect relative temporal alignment of the single component traces.
 | Software | Language | Description | Authors |
 | --- | --- | --- | --- |
 | SplitLab 1.0.5 | MATLAB | Original SplitLab version | Andreas Wüstefeld, Götz Bokelmann & Christophe Zaroli |
-| [SplitLab 1.2.1](https://robporritt.wordpress.com/software/) | MATLAB | Update of SplitLab 1.0.5 | Rob Porritt |
+| [SplitLab 1.2.1](https://robporritt.wordpress.com/software/) | MATLAB | Update of SplitLab 1.0.5 | Rob W. Porritt |
 | [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala M. Creasy |
 | [SplitLab 1.9.0](https://github.com/IPGP/splitlab) | MATLAB | Most recent SplitLab version| IPGP |
 | [StackSplit](https://github.com/michaelgrund/stacksplit) | MATLAB | Plugin for multi-event analyses in SplitLab | Michael Grund & Yvonne Fröhlich |
@@ -210,7 +210,7 @@ of an incorrect relative temporal alignment of the single component traces.
 | [SplitPy](https://github.com/paudetseis/SplitPy) | Python | Based on SplitLab | Pascal Audet & Andrew Schaeffer |
 | [SWSPy](https://github.com/TomSHudson/swspy) | Python | Automated workflow | Tom Hudson, Andrew M. Walker & Joseph Asplet|
 | [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py) | Python | Fully automated workflow | Utpal Kumar & Cédric Legendre |
-| [Pytheas](https://github.com/ispingos/pytheas-splitting) | Python | Local shear-wave splitting studies | Ioannis Spingos & George Kaviris|
+| [Pytheas](https://github.com/ispingos/pytheas-splitting) | Python | Local shear-wave splitting studies | Ioannis Spingos & George Kaviris |
 | [Sheba](https://github.com/jwookey/sheba) | Fortran |  | James Wookey |
 | [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl) | Julia |  | Andy Nowacki |
 
