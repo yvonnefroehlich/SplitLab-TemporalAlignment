@@ -16,14 +16,21 @@ during the installation process.
 
 ## Citation
 
-If you make use of this material, please cite the relating publication in which this issue is described in detail:
+_Zenodo DOI for all versions (latest version)_: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
 
+If you make use of this material, please cite the relating publications in which this issue is described in detail:
+
+**Peer-reviewed journal article**
 - [**_Fröhlich Y., Grund M. & Ritter J. R. R. (2022)_**](https://doi.org/10.4401/ag-8781).
   On the effects of wrongly aligned seismogram components for shear wave splitting analysis.
-  *Annals of Geophysics*, volume 66, issue 2.
+  *Annals of Geophysics*, 66(2).
   https://doi.org/10.4401/ag-8781.
 
-Furthermore you can cite the [Zenodo DOI](https://doi.org/10.5281/zenodo.5805029) given above.
+**Presentation**
+- [**_Fröhlich Y. & Ritter J. R. R. (2022)_**]()
+  Shear wave splitting analysis and temporal misalignment of seismogram components.
+  *48th German Seismology Working Group meeting*, Münster.
+  https://doi.org/10.5281/zenodo.14510987.
 
 
 ## Content
