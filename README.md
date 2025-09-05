@@ -9,7 +9,7 @@ a wrong shear wave splitting measurement.
 Here, I provide a test with seismological data for your personal _SplitLab_ version and a suggested correction
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
-This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
+This modified _SplitLab_ function is also introduced by _StackSplit_
 ([**_Grund 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) upon version [v3.0](https://doi.org/10.5281/zenodo.5802051)
 during the installation process.
 
