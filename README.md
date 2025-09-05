@@ -172,9 +172,9 @@ If you make use of this material, please cite the relating publications in which
 ### _SplitLab_ versions
 
 - [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
-  - [_SplitLab_ 1.0.5](https://splitting.gm.univ-montp2.fr) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
-  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt (2014)_**)
-  - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy (2020)_**; based on _SplitLab_ 1.2.1)
+  - [_SplitLab_ 1.0.5](https://splitting.gm.univ-montp2.fr) (`*_SL105`) ([**_Wüstefeld et al. 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (based on _SplitLab_ 1.0.5; **_Porritt 2014_**)
+  - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (based on _SplitLab_ 1.2.1; **_Creasy 2020_**)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`) (based on _SplitLab_ 1.0.5)
 
 ### How to do
