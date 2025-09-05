@@ -215,12 +215,12 @@ of an incorrect relative temporal alignment of the single component traces.
 | Software | Language | Description | Authors |
 | --- | --- | --- | --- |
 | [SplitLab 1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version          | Andreas Wüstefeld, Götz Bokelmann, Christophe Zaroli |
-| [SplitLab 1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5           | Rob W. Porritt                                       |
-| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1           | Neala M. Creasy                                      |
+| [SplitLab 1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5           | Rob W Porritt                                        |
+| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1           | Neala M Creasy                                       |
 | [SplitLab 1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Most recent SplitLab version       | IPGP                                                 |
-| [SplitRacer](https://www.miriam-reiss.com/splitracer)       | MATLAB  | Semi-automated workflow            | Miriam C. Reiss                                      |
+| [SplitRacer](https://www.miriam-reiss.com/splitracer)       | MATLAB  | Semi-automated workflow            | Miriam C Reiss                                       |
 | [SplitPy](https://github.com/paudetseis/SplitPy)            | Python  | Based on SplitLab                  | Pascal Audet, Andrew Schaeffer                       |
-| [SWSPy](https://github.com/TomSHudson/swspy)                | Python  | Automated workflow                 | Tom Hudson, Andrew M. Walker, Joseph Asplet          |
+| [SWSPy](https://github.com/TomSHudson/swspy)                | Python  | Automated workflow                 | Tom Hudson, Andrew M Walker, Joseph Asplet           |
 | [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py)  | Python  | Fully automated workflow           | Utpal Kumar, Cédric Legendre                         |
 | [Pytheas](https://github.com/ispingos/pytheas-splitting)    | Python  | Local shear-wave splitting studies | Ioannis Spingos, George Kaviris                      |
 | [Sheba](https://github.com/jwookey/sheba)                   | Fortran |                                    | James Wookey                                         |
@@ -229,7 +229,7 @@ of an incorrect relative temporal alignment of the single component traces.
 
 ## References
 
-- [**_Bowman J R, Ando, M (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
+- [**_Bowman J R, Ando M (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
   Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
   *Geophysical Journal International*, 88(1):25-41.
   https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
@@ -245,7 +245,8 @@ of an incorrect relative temporal alignment of the single component traces.
   StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
   *Computers & Geosciences*, 105:43-50.
   https://doi.org/10.1016/j.cageo.2017.04.015.
-  versions [v1.0](https://doi.org/10.5281/zenodo.464385), [v2.0](https://doi.org/10.5281/zenodo.7118716), and [v3.0](https://doi.org/10.5281/zenodo.5802051)
+  versions [v1.0](https://doi.org/10.5281/zenodo.464385), [v2.0](https://doi.org/10.5281/zenodo.7118716), and [v3.0](https://doi.org/10.5281/zenodo.5802051);
+  now at https://github.com/yvonnefroehlich/splitlab-stacksplit/tree/main/02_stacksplit.
   are available at https://github.com/michaelgrund/stacksplit.
 - **_Porritt R W (2014)_**. SplitLab version 1.2.1.
   available at https://robporritt.wordpress.com/software/.
