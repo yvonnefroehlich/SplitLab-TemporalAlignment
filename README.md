@@ -31,7 +31,7 @@ If you make use of this material, please cite the relating publications in which
   Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
   Dissertation, *Karlsruhe Institute of Technology, Geophysical Institute*.
   https://doi.org/10.5445/IR/1000183786.
-  
+
 **Presentation**
 - [**_Fröhlich Y, & Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987)
   Shear wave splitting analysis and temporal misalignment of seismogram components.
