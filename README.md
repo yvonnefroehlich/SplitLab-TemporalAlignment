@@ -6,7 +6,7 @@ wrong temporal alignment of the single traces (Z, N, E components) of one earthq
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to
 a wrong shear wave splitting measurement.
 
-Here we provide a test with seismological data for your personal _SplitLab_ version and a suggested correction
+Here, I provide a test with seismological data for your personal _SplitLab_ version and a suggested correction
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
@@ -20,14 +20,20 @@ _Zenodo DOI for all versions (latest version)_: [![DOI](https://zenodo.org/badge
 
 If you make use of this material, please cite the relating publications in which this issue is described in detail:
 
+**Doctoral studies**
+- [**_Fröhlich Y (2025)_**](https://doi.org/10.5445/IR/1000183786).
+  Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
+  Dissertation, *Karlsruhe Institute of Technology, Geophysical Institute*.
+  https://doi.org/10.5445/IR/1000183786.
+  
 **Peer-reviewed journal article**
-- [**_Fröhlich Y., Grund M. & Ritter J. R. R. (2022)_**](https://doi.org/10.4401/ag-8781).
+- [**_Fröhlich Y, Grund M, Ritter J R R (2022)_**](https://doi.org/10.4401/ag-8781).
   On the effects of wrongly aligned seismogram components for shear wave splitting analysis.
   *Annals of Geophysics*, 66(2).
   https://doi.org/10.4401/ag-8781.
 
 **Presentation**
-- [**_Fröhlich Y. & Ritter J. R. R. (2022)_**]()
+- [**_Fröhlich Y, & Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987)
   Shear wave splitting analysis and temporal misalignment of seismogram components.
   *48th German Seismology Working Group meeting*, Münster.
   https://doi.org/10.5281/zenodo.14510987.
@@ -167,8 +173,8 @@ If you make use of this material, please cite the relating publications in which
 
 - [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
   - [_SplitLab_ 1.0.5](https://splitting.gm.univ-montp2.fr) (`*_SL105`) ([**_Wüstefeld et al., 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
-  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt, 2014_**)
-  - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy, 2020_**; based on _SplitLab_ 1.2.1)
+  - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (**_Porritt (2014)_**)
+  - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (**_Creasy (2020)_**; based on _SplitLab_ 1.2.1)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`) (based on _SplitLab_ 1.0.5)
 
 ### How to do
@@ -208,27 +214,26 @@ of an incorrect relative temporal alignment of the single component traces.
 
 | Software | Language | Description | Authors |
 | --- | --- | --- | --- |
-| [SplitLab 1.0.5](https://splitting.gm.univ-montp2.fr) | MATLAB | Original SplitLab version | Andreas Wüstefeld, Götz Bokelmann & Christophe Zaroli |
-| [SplitLab 1.2.1](https://robporritt.wordpress.com/software) | MATLAB | Update of SplitLab 1.0.5 | Rob W. Porritt |
-| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB | Update of SplitLab 1.2.1 | Neala M. Creasy |
-| [SplitLab 1.9.0](https://github.com/IPGP/splitlab) | MATLAB | Most recent SplitLab version| IPGP |
-| [StackSplit](https://github.com/michaelgrund/stacksplit) | MATLAB | Plugin for multi-event analyses in SplitLab | Michael Grund & Yvonne Fröhlich |
-| [SplitRacer](https://www.miriam-reiss.com/splitracer) | MATLAB | Semi-automated workflow | Miriam C. Reiss |
-| [SplitPy](https://github.com/paudetseis/SplitPy) | Python | Based on SplitLab | Pascal Audet & Andrew Schaeffer |
-| [SWSPy](https://github.com/TomSHudson/swspy) | Python | Automated workflow | Tom Hudson, Andrew M. Walker & Joseph Asplet|
-| [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py) | Python | Fully automated workflow | Utpal Kumar & Cédric Legendre |
-| [Pytheas](https://github.com/ispingos/pytheas-splitting) | Python | Local shear-wave splitting studies | Ioannis Spingos & George Kaviris |
-| [Sheba](https://github.com/jwookey/sheba) | Fortran |  | James Wookey |
-| [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl) | Julia |  | Andy Nowacki |
+| [SplitLab 1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version          | Andreas Wüstefeld, Götz Bokelmann, Christophe Zaroli |
+| [SplitLab 1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5           | Rob W. Porritt                                       |
+| [SplitLab 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1           | Neala M. Creasy                                      |
+| [SplitLab 1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Most recent SplitLab version       | IPGP                                                 |
+| [SplitRacer](https://www.miriam-reiss.com/splitracer)       | MATLAB  | Semi-automated workflow            | Miriam C. Reiss                                      |
+| [SplitPy](https://github.com/paudetseis/SplitPy)            | Python  | Based on SplitLab                  | Pascal Audet, Andrew Schaeffer                       |
+| [SWSPy](https://github.com/TomSHudson/swspy)                | Python  | Automated workflow                 | Tom Hudson, Andrew M. Walker, Joseph Asplet          |
+| [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py)  | Python  | Fully automated workflow           | Utpal Kumar, Cédric Legendre                         |
+| [Pytheas](https://github.com/ispingos/pytheas-splitting)    | Python  | Local shear-wave splitting studies | Ioannis Spingos, George Kaviris                      |
+| [Sheba](https://github.com/jwookey/sheba)                   | Fortran |                                    | James Wookey                                         |
+| [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl)    | Julia   |                                    | Andy Nowacki                                         |
 
 
 ## References
 
-- [**_Bowman, J. R. & Ando, M. (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
+- [**_Bowman J R, Ando, M (1987)_**](https://doi.org/10.1111/j.1365-246X.1987.tb01367.x).
   Shear-wave splitting in the upper-mantle wedge above the Tonga subduction zone.
-  *Geophysical Journal International*, volume 88, issue 1, pages 25-41.
+  *Geophysical Journal International*, 88(1):25-41.
   https://doi.org/10.1111/j.1365-246X.1987.tb01367.x.
-- **_Creasy, N. M. (2020)_**. SplitLab version 1.3.0.
+- **_Creasy N M (2020)_**. SplitLab version 1.3.0.
   available at https://github.com/nmcreasy/SplitLab1.3.0.
 - **_GEOFON Data Centre (1993)_**. GEOFON (GeoForschungsNetz).
   Deutsches GeoForschungsZentrum (GFZ), Seismic Network.
@@ -236,25 +241,25 @@ of an incorrect relative temporal alignment of the single component traces.
 - **_GEOSCOPE (1982)_**. French Global Network of broad band seismic stations.
   Institut de physique du globe de Paris (IPGP) & Ecole et Observatoire des Sciences de la Terre de Strasbourg (EOST).
   https://doi.org/10.18715/GEOSCOPE.G.
-- [**_Grund, M. (2017)_**](https://doi.org/10.1016/j.cageo.2017.04.015).
+- [**_Grund M (2017)_**](https://doi.org/10.1016/j.cageo.2017.04.015).
   StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
-  *Computers & Geosciences*, volume 105, pages 43-50.
+  *Computers & Geosciences*, 105:43-50.
   https://doi.org/10.1016/j.cageo.2017.04.015.
   versions [1.0](https://doi.org/10.5281/zenodo.464385), [2.0](https://doi.org/10.5281/zenodo.7118716), and [3.0](https://doi.org/10.5281/zenodo.5802051)
   are available at https://github.com/michaelgrund/stacksplit.
-- **_Porritt, R. W. (2014)_**. SplitLab version 1.2.1.
+- **_Porritt R W (2014)_**. SplitLab version 1.2.1.
   available at https://robporritt.wordpress.com/software/.
-- [**_Silver, P. G. & Chan, W. W. (1991)_**](https://doi.org/10.1029/91JB00899).
+- [**_Silver P G, Chan W W (1991)_**](https://doi.org/10.1029/91JB00899).
   Shear wave splitting and subcontinental mantle deformation.
-  *Journal of Geophysical Research*, volume 96, issue B10, pages 16429-16454.
+  *Journal of Geophysical Research*, 96(B10):16429-16454.
   https://doi.org/10.1029/91JB00899.
-- [**_Walsh, E., Arnold, R. & Savage, M. K. (2013)_**](https://doi.org/10.1002/jgrb.50386).
+- [**_Walsh E, Arnold R, Savage M K (2013)_**](https://doi.org/10.1002/jgrb.50386).
   Silver and Chan revisited.
-  *Journal of Geophysical Research: Solid Earth*, volume 118, issue 10, pages 5500-5515.
+  *Journal of Geophysical Research: Solid Earth*, 118(10):5500-5515.
   https://doi.org/10.1002/jgrb.50386.
-- [**_Wüstefeld, A., Bokelmann, G., Zaroli, C. & Barruol, G.  (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002).
+- [**_Wüstefeld A, Bokelmann G, Zaroli C, Barruol G (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002).
   SplitLab: A shear-wave splitting environment in Matlab.
-  *Computers & Geosciences*, volume 34, issue 5, pages 515-528.
+  *Computers & Geosciences*, 34(5):515-528.
   https://doi.org/10.1016/j.cageo.2007.08.002.
   version 1.0.5 *should be* available at https://splitting.gm.univ-montp2.fr, version 1.9.0 is available at https://github.com/IPGP/splitlab.
 
