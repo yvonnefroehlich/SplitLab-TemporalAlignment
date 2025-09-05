@@ -214,17 +214,17 @@ of an incorrect relative temporal alignment of the single component traces.
 
 | Software | Language | Description | Authors |
 | --- | --- | --- | --- |
-| [SplitLab_1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version     | Andreas Wüstefeld, Götz Bokelmann, Christophe Zaroli |
-| [SplitLab_1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5      | Rob W Porritt                                        |
-| [SplitLab_1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1      | Neala M Creasy                                       |
-| [SplitLab_1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Update of SplitLab 1.2.1      | IPGP                                                 |
-| [SplitRacer](https://www.miriam-reiss.com/splitracer)       | MATLAB  | Semi-automated workflow       | Miriam C Reiss                                       |
-| [SplitPy](https://github.com/paudetseis/SplitPy)            | Python  | Based on SplitLab             | Pascal Audet, Andrew Schaeffer                       |
-| [SWSPy](https://github.com/TomSHudson/swspy)                | Python  | Automated workflow            | Tom Hudson, Andrew M Walker, Joseph Asplet           |
-| [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py)  | Python  | Fully automated workflow      | Utpal Kumar, Cédric Legendre                         |
-| [Pytheas](https://github.com/ispingos/pytheas-splitting)    | Python  | Local shear wave splitting    | Ioannis Spingos, George Kaviris                      |
-| [Sheba](https://github.com/jwookey/sheba)                   | Fortran |                               | James Wookey                                         |
-| [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl)    | Julia   |                               | Andy Nowacki                                         |
+| [SplitLab_1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version     | Andreas Wüstefeld, Götz Bokelmann, <br> Christophe Zaroli |
+| [SplitLab_1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5      | Rob W Porritt                                             |
+| [SplitLab_1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1      | Neala M Creasy                                            |
+| [SplitLab_1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Update of SplitLab 1.2.1      | IPGP                                                      |
+| [SplitRacer](https://www.miriam-reiss.com/splitracer)       | MATLAB  | Semi-automated workflow       | Miriam C Reiss                                            |
+| [SplitPy](https://github.com/paudetseis/SplitPy)            | Python  | Based on SplitLab             | Pascal Audet, Andrew Schaeffer                            |
+| [SWSPy](https://github.com/TomSHudson/swspy)                | Python  | Automated workflow            | Tom Hudson, Andrew M Walker, Joseph Asplet                |
+| [STADIUM-Py](https://github.com/earthinversion/STADIUM-Py)  | Python  | Fully automated workflow      | Utpal Kumar, Cédric Legendre                              |
+| [Pytheas](https://github.com/ispingos/pytheas-splitting)    | Python  | Local shear wave splitting    | Ioannis Spingos, George Kaviris                           |
+| [Sheba](https://github.com/jwookey/sheba)                   | Fortran |                               | James Wookey                                              |
+| [SeisSplit.jl](https://github.com/anowacki/SeisSplit.jl)    | Julia   |                               | Andy Nowacki                                              |
 
 
 ## References
