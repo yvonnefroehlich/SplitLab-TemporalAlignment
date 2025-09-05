@@ -10,7 +10,7 @@ Here, I provide a test with seismological data for your personal _SplitLab_ vers
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by [_StackSplit_](https://github.com/michaelgrund/stacksplit)
-([**_Grund 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) version [3.0](https://doi.org/10.5281/zenodo.5802051)
+([**_Grund 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) upon version [v3.0](https://doi.org/10.5281/zenodo.5802051)
 during the installation process.
 
 
@@ -33,7 +33,7 @@ If you make use of this material, please cite the relating publications in which
   https://doi.org/10.5445/IR/1000183786.
 
 **Presentation**
-- [**_Fröhlich Y, & Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987)
+- [**_Fröhlich Y, Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987)
   Shear wave splitting analysis and temporal misalignment of seismogram components.
   *48th German Seismology Working Group meeting*, Münster.
   https://doi.org/10.5281/zenodo.14510987.
