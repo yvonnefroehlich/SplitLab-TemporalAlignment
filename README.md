@@ -20,18 +20,18 @@ _Zenodo DOI for all versions (latest version)_: [![DOI](https://zenodo.org/badge
 
 If you make use of this material, please cite the relating publications in which this issue is described in detail:
 
-**Doctoral studies**
-- [**_Fröhlich Y (2025)_**](https://doi.org/10.5445/IR/1000183786).
-  Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
-  Dissertation, *Karlsruhe Institute of Technology, Geophysical Institute*.
-  https://doi.org/10.5445/IR/1000183786.
-  
 **Peer-reviewed journal article**
 - [**_Fröhlich Y, Grund M, Ritter J R R (2022)_**](https://doi.org/10.4401/ag-8781).
   On the effects of wrongly aligned seismogram components for shear wave splitting analysis.
   *Annals of Geophysics*, 66(2).
   https://doi.org/10.4401/ag-8781.
 
+**Doctoral studies**
+- [**_Fröhlich Y (2025)_**](https://doi.org/10.5445/IR/1000183786).
+  Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
+  Dissertation, *Karlsruhe Institute of Technology, Geophysical Institute*.
+  https://doi.org/10.5445/IR/1000183786.
+  
 **Presentation**
 - [**_Fröhlich Y, & Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987)
   Shear wave splitting analysis and temporal misalignment of seismogram components.
