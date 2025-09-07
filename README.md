@@ -246,9 +246,6 @@ of an incorrect relative temporal alignment of the single component traces.
   StackSplit - a plugin for multi-event shear wave splitting analyses in SplitLab.
   *Computers & Geosciences*, 105:43-50.
   https://doi.org/10.1016/j.cageo.2017.04.015.
-  versions [v1.0](https://doi.org/10.5281/zenodo.464385), [v2.0](https://doi.org/10.5281/zenodo.7118716), and [v3.0](https://doi.org/10.5281/zenodo.5802051);
-  now at https://github.com/yvonnefroehlich/splitlab-stacksplit/tree/main/02_stacksplit.
-  are available at https://github.com/michaelgrund/stacksplit.
 - **_Porritt R W (2014)_**. SplitLab version 1.2.1.
   available at https://robporritt.wordpress.com/software/.
 - [**_Silver P G, Chan W W (1991)_**](https://doi.org/10.1029/91JB00899).
@@ -263,7 +260,6 @@ of an incorrect relative temporal alignment of the single component traces.
   SplitLab: A shear-wave splitting environment in Matlab.
   *Computers & Geosciences*, 34(5):515-528.
   https://doi.org/10.1016/j.cageo.2007.08.002.
-  version 1.0.5 *should be* available at https://splitting.gm.univ-montp2.fr, version 1.9.0 is available at https://github.com/IPGP/splitlab.
 
 
 ## Funding
