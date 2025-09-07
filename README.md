@@ -1,7 +1,7 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_ [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
 
 This material addresses an error source in the code of the MATLAB based shear wave splitting software package
-_SplitLab_ ([**_Wüstefeld et al. 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a
+_SplitLab_ ([**_Wüstefeld et al. (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a
 wrong temporal alignment of the single traces (Z, N, E components) of one earthquake _relative_ to each other.
 The resulting wrong horizontal particle motion and wrong waveforms in the ray (LQT) coordinate system lead to
 a wrong shear wave splitting measurement.
@@ -10,7 +10,7 @@ Here, I provide a test with seismological data for your personal _SplitLab_ vers
 of the _SplitLab_ function `getFileAndEQseconds.m` for the publicly available _SplitLab_ versions.
 
 This modified _SplitLab_ function is also introduced by _StackSplit_
-([**_Grund 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) upon version [v3.0](https://doi.org/10.5281/zenodo.5802051)
+([**_Grund (2017)_**](https://doi.org/10.1016/j.cageo.2017.04.015)) upon version [v3.0](https://doi.org/10.5281/zenodo.5802051)
 during the installation process.
 
 
@@ -172,7 +172,7 @@ If you make use of this material, please cite the relating publications in which
 ### _SplitLab_ versions
 
 - [`03_SL_getFileAndEQseconds`](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/tree/main/03_SL_getFileAndEQseconds)
-  - [_SplitLab_ 1.0.5](https://splitting.gm.univ-montp2.fr) (`*_SL105`) ([**_Wüstefeld et al. 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002))
+  - [_SplitLab_ 1.0.5](https://splitting.gm.univ-montp2.fr) (`*_SL105`) ([**_Wüstefeld et al. (2008)_**](https://doi.org/10.1016/j.cageo.2007.08.002))
   - [_SplitLab_ 1.2.1](https://robporritt.wordpress.com/software/) (`*_SL121`) (based on _SplitLab_ 1.0.5; **_Porritt 2014_**)
   - [_SplitLab_ 1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) (`*_SL130`) (based on _SplitLab_ 1.2.1; **_Creasy 2020_**)
   - [_SplitLab_ 1.9.0](https://github.com/IPGP/splitlab) (`*_SL190`) (based on _SplitLab_ 1.0.5; **_IPGP_**)
