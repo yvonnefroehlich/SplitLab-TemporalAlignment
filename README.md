@@ -17,8 +17,6 @@ during the installation process.
 
 ## Citation
 
-_Zenodo DOI for all versions (latest version)_: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
-
 If you make use of this material, please cite the relating publications in which this issue is described in detail:
 
 **Peer-reviewed journal article**
