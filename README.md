@@ -265,4 +265,4 @@ of an incorrect relative temporal alignment of the single component traces.
 
 The presented research and YF received support from:
 
-- Scholarship of the [Graduate Funding from the German States](https://www.khys.kit.edu/english/graduate_funding.php)
+- [Graduate Funding from the German States](https://www.khys.kit.edu/english/graduate_funding.php) (scholarship)
