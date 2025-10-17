@@ -213,10 +213,10 @@ of an incorrect relative temporal alignment of the single component traces.
 
 | Software | Language | Description | Authors |
 | --- | --- | --- | --- |
-| [SplitLab_1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version          | A Wüstefeld, G Bokelmann, C Zaroli |
-| [SplitLab_1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5           | R W Porritt                        |
-| [SplitLab_1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1           | N M Creasy                         |
-| [SplitLab_1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Latest SplitLab version (beta)     | IPGP                               |
+| [SplitLab&nbsp;1.0.5](https://splitting.gm.univ-montp2.fr)       | MATLAB  | Original SplitLab version          | A Wüstefeld, G Bokelmann, C Zaroli |
+| [SplitLab&nbsp;1.2.1](https://robporritt.wordpress.com/software) | MATLAB  | Update of SplitLab 1.0.5           | R W Porritt                        |
+| [SplitLab&nbsp;1.3.0](https://github.com/nmcreasy/SplitLab1.3.0) | MATLAB  | Update of SplitLab 1.2.1           | N M Creasy                         |
+| [SplitLab&nbsp;1.9.0](https://github.com/IPGP/splitlab)          | MATLAB  | Latest SplitLab version (beta)     | IPGP                               |
 | SplitRacer                                                  | MATLAB  | Semi-automated workflow            | [M C Reiss, G Rümpker](https://doi.org/10.1785/0220160191) |
 | SplitRacerAUTO                                              | MATLAB  | Automated workflow, large datasets | [F Link, M C Reiss, G Rümpker](https://doi.org/10.1016/j.cageo.2021.104961) |
 | [SplitPy](https://github.com/paudetseis/SplitPy)            | Python  | Based on SplitLab                  | P Audet, A Schaeffer               |
