@@ -26,16 +26,20 @@ If you make use of this material, please cite the relating publications in which
   https://doi.org/10.4401/ag-8781.
 
 **Doctoral studies**
-- [**_Fröhlich Y (2025)_**](https://doi.org/10.5445/IR/1000183786).
+- [**_Fröhlich Y (2025a)_**](https://doi.org/10.5445/IR/1000183786).
   Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
   Dissertation, *Karlsruhe Institute of Technology, Geophysical Institute*.
   https://doi.org/10.5445/IR/1000183786.
+- [**_Fröhlich Y (2025b)_**](https://doi.org/10.5281/zenodo.15982580).
+  Shear wave splitting analysis of long-term data: Anisotropy studies in the Upper Rhine Graben area, Central Europe.
+  Disputation, *Karlsruhe Institute of Technology, Geophysical Institute*.
+  https://doi.org/10.5281/zenodo.15982580.
 
 **Presentation**
-- [**_Fröhlich Y, Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510987).
+- [**_Fröhlich Y, Ritter J R R (2022)_**](https://doi.org/10.5281/zenodo.14510986).
   Shear wave splitting analysis and temporal misalignment of seismogram components.
   *48th German Seismology Working Group meeting*, Münster.
-  https://doi.org/10.5281/zenodo.14510987.
+  https://doi.org/10.5281/zenodo.14510986.
 
 
 ## Content
