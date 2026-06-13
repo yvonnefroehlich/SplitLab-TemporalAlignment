@@ -1,5 +1,5 @@
 # Temporal Alignment of Seismic Traces in _SplitLab_
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805029.svg)](https://doi.org/10.5281/zenodo.5805029)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.5805029-blue)](https://doi.org/10.5281/zenodo.5805029)
 
 This material addresses an error source in the code of the MATLAB based shear wave splitting software package
 _SplitLab_ ([**_Wüstefeld et al. 2008_**](https://doi.org/10.1016/j.cageo.2007.08.002)). The error causes a
@@ -195,8 +195,8 @@ If you make use of this material, please cite the relating publications in which
 | Release | Zenodo DOI |
 | --- | --- |
 | dev [main branch](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment) |  |
-| [v2.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v2.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13760807.svg)](https://doi.org/10.5281/zenodo.13760807) |
-| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5805030.svg)](https://doi.org/10.5281/zenodo.5805030) |
+| [v2.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v2.0) | [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.13760807-blue)](https://doi.org/10.5281/zenodo.13760807) |
+| [v1.0](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/releases/tag/v1.0) | [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.5805030-blue)](https://doi.org/10.5281/zenodo.5805030) |
 
 For details on the single releases see the [changelog](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/blob/main/changelog.md).
 
