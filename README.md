@@ -14,6 +14,8 @@ This modified _SplitLab_ function is also introduced by _StackSplit_
 ([**_Grund 2017_**](https://doi.org/10.1016/j.cageo.2017.04.015)) upon version [v3.0](https://doi.org/10.5281/zenodo.5802051)
 during the installation process.
 
+_No AI tools or agents are used to develope these contents._
+
 
 ## Citation
 
@@ -207,6 +209,7 @@ For bug reports, suggestions, or recommendations feel free to
 [open an issue](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/issues)
 or [submit a pull request](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment/pulls)
 directly here on [GitHub](https://github.com/yvonnefroehlich/SplitLab-TemporalAlignment).
+_Fully AI-generated contents are **not** welcome!_
 
 
 ## Related topics
